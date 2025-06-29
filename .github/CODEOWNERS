@@ -1,9 +1,17 @@
 # Global owners - these people will be the default owners for everything in the repo
 * @mayankpriy
 
-# Specific file/directory owners
-# Python topic files
+# GitHub configuration files
+.github/ @mayankpriy
+
+# Documentation files
 *.md @mayankpriy
+README.md @mayankpriy
+LICENSE @mayankpriy
+CONTRIBUTING.md @mayankpriy
+CHANGELOG.md @mayankpriy
+
+# Python topic directories
 01_variables_and_data_types/ @mayankpriy
 02_control_flow/ @mayankpriy
 03_functions/ @mayankpriy
@@ -19,13 +27,4 @@
 
 # Specialized practice areas
 debugging/ @mayankpriy
-interview/ @mayankpriy
-
-# Documentation and project files
-README.md @mayankpriy
-LICENSE @mayankpriy
-CONTRIBUTING.md @mayankpriy
-CHANGELOG.md @mayankpriy
-
-# GitHub configuration files
-.github/ @mayankpriy 
+interview/ @mayankpriy 
