@@ -539,7 +539,329 @@
 
 ---
 
-## 🎯 **Study Progress Summary**
+## 🆕 **Additional Practice Questions** (21-30)
+
+### Question 21: Working with Complex Numbers ⭐⭐
+
+**⏱️ Time Estimate:** 15 minutes  
+**🎯 Category:** Advanced Types  
+**📝 Skills Tested:** Complex numbers, mathematical operations
+
+**Task:** Perform operations with complex numbers and understand their properties.
+
+**Real-life Scenario:** You're building a signal processing application:
+
+- Create complex numbers representing electrical signals
+- Perform mathematical operations on complex numbers
+- Extract real and imaginary parts
+- Calculate magnitude and phase
+
+**Think about:**
+
+- How do complex numbers differ from real numbers?
+- What operations can you perform on complex numbers?
+- How do you access the real and imaginary components?
+
+**Challenge yourself:**
+
+- Can you implement a simple complex number calculator?
+- What if you need to convert between polar and rectangular forms?
+
+**If you can't solve this, review:** Complex numbers, mathematical operations, built-in functions
+
+**🔢 Complex Math:** `3+4j` represents 3 + 4i in mathematics!
+
+---
+
+### Question 22: Understanding Bytes and Bytearrays ⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Binary Data  
+**📝 Skills Tested:** Binary data handling, encoding
+
+**Task:** Work with binary data using bytes and bytearray objects.
+
+**Real-life Scenario:** You're processing binary files or network data:
+
+- Convert strings to bytes and vice versa
+- Manipulate binary data safely
+- Handle different character encodings
+- Process raw binary data
+
+**Think about:**
+
+- When would you use bytes vs bytearray?
+- How do you handle encoding and decoding?
+- What's the difference between bytes and strings?
+
+**Challenge yourself:**
+
+- Can you implement a simple binary file reader?
+- What if you need to process network packets?
+
+**If you can't solve this, review:** Bytes, bytearray, encoding, binary data
+
+**💾 Binary Data:** Bytes are immutable, bytearrays are mutable!
+
+---
+
+### Question 23: Working with Sets and Frozen Sets ⭐⭐
+
+**⏱️ Time Estimate:** 20 minutes  
+**🎯 Category:** Set Operations  
+**📝 Skills Tested:** Set operations, uniqueness
+
+**Task:** Use sets to handle unique collections and perform set operations.
+
+**Real-life Scenario:** You're building a recommendation system:
+
+- Find common interests between users
+- Remove duplicate items from lists
+- Perform mathematical set operations
+- Track unique visitors to a website
+
+**Think about:**
+
+- When should you use sets instead of lists?
+- What operations are unique to sets?
+- How do you handle set operations efficiently?
+
+**Challenge yourself:**
+
+- Can you implement a simple recommendation algorithm?
+- What if you need to find overlapping data sets?
+
+**If you can't solve this, review:** Sets, set operations, uniqueness, mathematical sets
+
+**🎯 Set Advantage:** O(1) membership testing vs O(n) for lists!
+
+---
+
+### Question 24: Understanding Named Tuples ⭐⭐⭐
+
+**⏱️ Time Estimate:** 18 minutes  
+**🎯 Category:** Advanced Data Structures  
+**📝 Skills Tested:** Named tuples, structured data
+
+**Task:** Create and use named tuples for structured data representation.
+
+**Real-life Scenario:** You're building a database interface:
+
+- Represent database records with named fields
+- Create structured data objects
+- Access data by field names
+- Maintain data integrity
+
+**Think about:**
+
+- When are named tuples better than regular tuples?
+- How do you access data in named tuples?
+- What are the benefits of named tuples over dictionaries?
+
+**Challenge yourself:**
+
+- Can you create a simple database record system?
+- What if you need to validate the data structure?
+
+**If you can't solve this, review:** Named tuples, collections module, structured data
+
+**📋 Named Tuples:** Combine tuple immutability with field names!
+
+---
+
+### Question 25: Working with Enums ⭐⭐⭐
+
+**⏱️ Time Estimate:** 15 minutes  
+**🎯 Category:** Constants & Enumerations  
+**📝 Skills Tested:** Enums, constants, type safety
+
+**Task:** Use enums to represent constants and improve code readability.
+
+**Real-life Scenario:** You're building a game with different states:
+
+- Define game states (playing, paused, game_over)
+- Represent user roles (admin, user, guest)
+- Handle different file types
+- Manage application status codes
+
+**Think about:**
+
+- When should you use enums instead of constants?
+- How do you iterate through enum values?
+- What are the benefits of using enums?
+
+**Challenge yourself:**
+
+- Can you implement a simple state machine?
+- What if you need to serialize enum values?
+
+**If you can't solve this, review:** Enums, constants, type safety, enum module
+
+**🎮 Enum Benefits:** Type safety, iteration, and clear intent!
+
+---
+
+### Question 26: Understanding Dataclasses ⭐⭐⭐
+
+**⏱️ Time Estimate:** 22 minutes  
+**🎯 Category:** Modern Python Features  
+**📝 Skills Tested:** Dataclasses, automatic methods
+
+**Task:** Use dataclasses to create simple data containers with automatic methods.
+
+**Real-life Scenario:** You're building a configuration system:
+
+- Create configuration objects with default values
+- Automatically generate comparison methods
+- Handle data validation
+- Serialize configuration data
+
+**Think about:**
+
+- When should you use dataclasses vs regular classes?
+- What methods are automatically generated?
+- How do you customize dataclass behavior?
+
+**Challenge yourself:**
+
+- Can you create a configuration management system?
+- What if you need to add custom validation?
+
+**If you can't solve this, review:** Dataclasses, automatic methods, Python 3.7+ features
+
+**⚡ Dataclass Magic:** Automatic `__init__`, `__repr__`, `__eq__` methods!
+
+---
+
+### Question 27: Working with Type Hints ⭐⭐⭐
+
+**⏱️ Time Estimate:** 20 minutes  
+**🎯 Category:** Type Safety  
+**📝 Skills Tested:** Type hints, code documentation
+
+**Task:** Add type hints to functions and variables to improve code clarity.
+
+**Real-life Scenario:** You're working on a large codebase:
+
+- Document function parameters and return types
+- Use type hints for better IDE support
+- Handle complex type annotations
+- Work with generic types
+
+**Think about:**
+
+- How do type hints improve code quality?
+- What types can you annotate?
+- How do you handle optional types?
+
+**Challenge yourself:**
+
+- Can you add type hints to existing code?
+- What if you need to handle union types?
+
+**If you can't solve this, review:** Type hints, typing module, code documentation
+
+**📝 Type Hints:** Improve code clarity and catch errors early!
+
+---
+
+### Question 28: Understanding Slots ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Performance Optimization  
+**📝 Skills Tested:** Memory optimization, class design
+
+**Task:** Use `__slots__` to optimize memory usage in classes with many instances.
+
+**Real-life Scenario:** You're building a high-performance application:
+
+- Create classes with fixed attributes
+- Optimize memory usage for large datasets
+- Understand the trade-offs of using slots
+- Handle inheritance with slots
+
+**Think about:**
+
+- When should you use `__slots__`?
+- What are the benefits and limitations?
+- How do slots affect inheritance?
+
+**Challenge yourself:**
+
+- Can you measure the memory savings?
+- What if you need to add attributes dynamically?
+
+**If you can't solve this, review:** `__slots__`, memory optimization, class design
+
+**💾 Memory Optimization:** Slots can significantly reduce memory usage!
+
+---
+
+### Question 29: Working with Properties ⭐⭐⭐
+
+**⏱️ Time Estimate:** 18 minutes  
+**🎯 Category:** Class Design  
+**📝 Skills Tested:** Properties, getters, setters
+
+**Task:** Use properties to control attribute access and add validation.
+
+**Real-life Scenario:** You're building a user management system:
+
+- Validate user age when setting it
+- Compute derived attributes (like full name)
+- Control read/write access to sensitive data
+- Add logging to attribute changes
+
+**Think about:**
+
+- When should you use properties vs regular attributes?
+- How do you implement read-only properties?
+- What are the benefits of using properties?
+
+**Challenge yourself:**
+
+- Can you implement a property with validation?
+- What if you need to cache computed properties?
+
+**If you can't solve this, review:** Properties, getters, setters, validation
+
+**🔒 Property Benefits:** Encapsulation, validation, and computed values!
+
+---
+
+### Question 30: Understanding Descriptors ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Advanced Python Features  
+**📝 Skills Tested:** Descriptors, attribute access control
+
+**Task:** Create custom descriptors to control attribute access behavior.
+
+**Real-life Scenario:** You're building a framework with custom behavior:
+
+- Create attributes that validate automatically
+- Implement lazy loading of expensive data
+- Add custom behavior to attribute access
+- Create reusable attribute patterns
+
+**Think about:**
+
+- How do descriptors work under the hood?
+- When should you use descriptors?
+- What are the different types of descriptors?
+
+**Challenge yourself:**
+
+- Can you create a validation descriptor?
+- What if you need to implement caching?
+
+**If you can't solve this, review:** Descriptors, `__get__`, `__set__`, `__delete__` methods
+
+**🔧 Descriptor Power:** Control how attributes are accessed and modified!
+
+---
+
+## 🎯 **Updated Study Progress Summary**
 
 ### 📈 **Completion Status:**
 
@@ -547,8 +869,9 @@
 - 🟡 **Intermediate Level:** 0/6 completed
 - 🟠 **Advanced Level:** 0/5 completed
 - 🔴 **Expert Level:** 0/3 completed
+- 🆕 **Additional Practice:** 0/10 completed
 
-### ⏱️ **Total Estimated Time:** 6 hours 30 minutes
+### ⏱️ **Total Estimated Time:** 9 hours 45 minutes
 
 ### 🎓 **Next Steps:**
 
@@ -556,6 +879,7 @@
 2. Move to Intermediate when comfortable
 3. Challenge yourself with Advanced concepts
 4. Master Expert level for real-world scenarios
+5. Practice with Additional Questions (21-30)
 
 ---
 

@@ -142,30 +142,6 @@
 
 ---
 
-## 🔗 Additional Resources
-
-### **Practice Platforms**
-
-- [LeetCode](https://leetcode.com/) - Algorithm challenges
-- [HackerRank](https://www.hackerrank.com/) - Python problems
-- [Codewars](https://www.codewars.com/) - Kata challenges
-- [InterviewBit](https://www.interviewbit.com/) - Interview prep
-
-### **Study Materials**
-
-- [Python Documentation](https://docs.python.org/3/)
-- [Real Python](https://realpython.com/) - Tutorials and articles
-- [Python Weekly](https://www.pythonweekly.com/) - Newsletter
-- [Python Discord](https://discord.gg/python) - Community
-
-### **Books**
-
-- "Python Cookbook" by David Beazley
-- "Fluent Python" by Luciano Ramalho
-- "Effective Python" by Brett Slatkin
-- "Python Tricks" by Dan Bader
-
----
 
 ## 🎯 Interview Question Types
 
