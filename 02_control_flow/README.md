@@ -1,6 +1,6 @@
 # 🐍 Control Flow: Complete Learning Guide
 
-> **Master Python's decision-making and looping constructs!** 🔄
+> **Master Python's control flow and decision-making!** 🔀
 
 ---
 
@@ -8,17 +8,19 @@
 
 ```mermaid
 graph TD
-    A[Start Here] --> B[Conditional Logic]
-    B --> C[Loops & Iteration]
-    C --> D[Loop Control]
-    D --> E[Advanced Patterns]
-    E --> F[Real-World Applications]
+    A[Start Here] --> B[Basic Control Flow]
+    B --> C[Conditional Statements]
+    C --> D[Loops & Iteration]
+    D --> E[Advanced Control Flow]
+    E --> F[Pattern Matching]
+    F --> G[Real-World Applications]
 
-    B --> B1[if/elif/else]
-    C --> C1[for/while loops]
-    D --> D1[break/continue]
-    E --> E1[Recursion/Generators]
-    F --> F1[State Machines/Async]
+    B --> B1[if/elif/else statements]
+    C --> C1[Boolean logic & operators]
+    D --> D1[for & while loops]
+    E --> E1[break, continue, pass]
+    F --> F1[Match statements]
+    G --> G1[Complex decision trees]
 ```
 
 ---
@@ -27,35 +29,35 @@ graph TD
 
 ### 🌱 **Foundation Level**
 
-- [ ] **Conditional Logic** ⭐
+- [ ] **Basic Control Flow** ⭐
   - [ ] if/elif/else statements
-  - [ ] Logical operators (and, or, not)
-  - [ ] Comparison operators
-  - [ ] Boolean expressions
+  - [ ] Boolean logic and operators
+  - [ ] Simple conditional expressions
+  - [ ] Basic decision making
 
 ### 🌿 **Intermediate Level**
 
 - [ ] **Loops & Iteration** ⭐⭐
-  - [ ] for loops with range
-  - [ ] while loops
-  - [ ] Nested loops
-  - [ ] Loop control (break/continue)
+  - [ ] for loops with different iterables
+  - [ ] while loops and condition checking
+  - [ ] Loop control statements (break, continue)
+  - [ ] Nested loops and complex iteration
 
 ### 🌳 **Advanced Level**
 
-- [ ] **Advanced Patterns** ⭐⭐⭐
-  - [ ] List comprehensions
-  - [ ] Generator functions
-  - [ ] Recursion vs iteration
-  - [ ] Error handling in loops
+- [ ] **Advanced Control Flow** ⭐⭐⭐
+  - [ ] List comprehensions with conditions
+  - [ ] Ternary operators and conditional expressions
+  - [ ] Exception handling in control flow
+  - [ ] Performance optimization techniques
 
 ### 🏔️ **Expert Level**
 
-- [ ] **Real-World Applications** ⭐⭐⭐⭐
-  - [ ] State machines
-  - [ ] Asynchronous control flow
-  - [ ] Custom iterators
-  - [ ] Performance optimization
+- [ ] **Pattern Matching & Complex Logic** ⭐⭐⭐⭐
+  - [ ] Pattern matching (Python 3.10+)
+  - [ ] Complex decision trees and state machines
+  - [ ] Control flow optimization
+  - [ ] Real-world application patterns
 
 ---
 
@@ -63,43 +65,43 @@ graph TD
 
 ### **Week 1: Foundation** 🟢
 
-| Day | Topic             | Time    | Resources                                                                           |
-| --- | ----------------- | ------- | ----------------------------------------------------------------------------------- |
-| 1   | Conditional Logic | 2 hours | [Python Docs](https://docs.python.org/3/tutorial/controlflow.html)                  |
-| 2   | Logical Operators | 2 hours | [Real Python](https://realpython.com/python-conditional-statements/)                |
-| 3   | For Loops         | 2 hours | [Loop Tutorial](https://docs.python.org/3/tutorial/controlflow.html#for-statements) |
-| 4   | While Loops       | 2 hours | [While Loops](https://docs.python.org/3/reference/compound_stmts.html#while)        |
-| 5   | Practice & Review | 2 hours | Questions 1-6                                                                       |
+| Day | Topic                   | Time    | Resources                                                                                           |
+| --- | ----------------------- | ------- | --------------------------------------------------------------------------------------------------- |
+| 1   | Basic Control Flow      | 2 hours | [Python Control Flow](https://docs.python.org/3/tutorial/controlflow.html)                          |
+| 2   | if/elif/else Statements | 2 hours | [Conditional Statements](https://docs.python.org/3/tutorial/controlflow.html#if-statements)         |
+| 3   | Boolean Logic           | 2 hours | [Boolean Operations](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not) |
+| 4   | Comparison Operators    | 2 hours | [Comparison Operators](https://docs.python.org/3/reference/expressions.html#comparisons)            |
+| 5   | Practice & Review       | 2 hours | Questions 1-6                                                                                       |
 
 ### **Week 2: Intermediate** 🟡
 
-| Day | Topic               | Time    | Resources                                                                                           |
-| --- | ------------------- | ------- | --------------------------------------------------------------------------------------------------- |
-| 6   | Nested Loops        | 3 hours | [Nested Loops](https://docs.python.org/3/tutorial/controlflow.html#nested-loops)                    |
-| 7   | Loop Control        | 2 hours | [Break/Continue](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements) |
-| 8   | List Comprehensions | 2 hours | [List Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)   |
-| 9   | Error Handling      | 2 hours | [Exception Handling](https://docs.python.org/3/tutorial/errors.html)                                |
-| 10  | Practice & Review   | 2 hours | Questions 7-12                                                                                      |
+| Day | Topic             | Time    | Resources                                                                                               |
+| --- | ----------------- | ------- | ------------------------------------------------------------------------------------------------------- |
+| 6   | for Loops         | 3 hours | [for Statements](https://docs.python.org/3/reference/compound_stmts.html#for)                           |
+| 7   | while Loops       | 2 hours | [while Statements](https://docs.python.org/3/reference/compound_stmts.html#while)                       |
+| 8   | Loop Control      | 2 hours | [break and continue](https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements) |
+| 9   | Nested Loops      | 2 hours | [Nested Loops](https://docs.python.org/3/tutorial/controlflow.html#for-statements)                      |
+| 10  | Practice & Review | 2 hours | Questions 7-12                                                                                          |
 
 ### **Week 3: Advanced** 🟠
 
-| Day | Topic                    | Time    | Resources                                                                           |
-| --- | ------------------------ | ------- | ----------------------------------------------------------------------------------- |
-| 11  | Generator Functions      | 3 hours | [Generators](https://docs.python.org/3/tutorial/classes.html#generators)            |
-| 12  | Recursion                | 2 hours | [Recursion](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) |
-| 13  | Performance Optimization | 2 hours | [Performance Tips](https://wiki.python.org/moin/PythonSpeed/PerformanceTips)        |
-| 14  | State Machines           | 2 hours | [State Patterns](https://en.wikipedia.org/wiki/State_pattern)                       |
-| 15  | Practice & Review        | 2 hours | Questions 13-17                                                                     |
+| Day | Topic                    | Time    | Resources                                                                                               |
+| --- | ------------------------ | ------- | ------------------------------------------------------------------------------------------------------- |
+| 11  | List Comprehensions      | 3 hours | [List Comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)       |
+| 12  | Ternary Operators        | 3 hours | [Conditional Expressions](https://docs.python.org/3/reference/expressions.html#conditional-expressions) |
+| 13  | Exception Handling       | 2 hours | [Exception Handling](https://docs.python.org/3/tutorial/errors.html)                                    |
+| 14  | Performance Optimization | 2 hours | [Performance Tips](https://wiki.python.org/moin/PythonSpeed/PerformanceTips)                            |
+| 15  | Practice & Review        | 2 hours | Questions 13-17                                                                                         |
 
 ### **Week 4: Expert** 🔴
 
-| Day | Topic                   | Time    | Resources                                                                                |
-| --- | ----------------------- | ------- | ---------------------------------------------------------------------------------------- |
-| 16  | Custom Iterators        | 3 hours | [Iterator Protocol](https://docs.python.org/3/reference/datamodel.html#object.__iter__)  |
-| 17  | Asynchronous Control    | 2 hours | [Async/Await](https://docs.python.org/3/library/asyncio.html)                            |
-| 18  | Real-World Applications | 3 hours | [Best Practices](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) |
-| 19  | Final Review            | 2 hours | All Questions                                                                            |
-| 20  | Assessment              | 1 hour  | Interview Questions                                                                      |
+| Day | Topic                  | Time    | Resources                                                             |
+| --- | ---------------------- | ------- | --------------------------------------------------------------------- |
+| 16  | Pattern Matching       | 3 hours | [Pattern Matching (PEP 634)](https://peps.python.org/pep-0634/)       |
+| 17  | Complex Decision Trees | 2 hours | [Decision Trees](https://docs.python.org/3/tutorial/controlflow.html) |
+| 18  | State Machines         | 3 hours | [State Machines](https://docs.python.org/3/library/enum.html)         |
+| 19  | Final Review           | 2 hours | All Questions                                                         |
+| 20  | Assessment             | 1 hour  | Interview Questions                                                   |
 
 ---
 
@@ -136,24 +138,24 @@ graph TD
 
 ### ❌ **Beginner Mistakes**
 
-- Forgetting colons after conditional statements
 - Using `=` instead of `==` for comparison
-- Creating infinite loops without exit conditions
-- Not understanding loop variable scope
+- Forgetting to use `:` after if/elif/else statements
+- Not understanding indentation rules
+- Infinite loops with while statements
 
 ### ⚠️ **Intermediate Pitfalls**
 
-- Using nested loops when unnecessary
-- Forgetting to update loop conditions
+- Modifying lists during iteration
+- Not using break/continue appropriately
+- Overcomplicating simple conditions
 - Ignoring loop performance implications
-- Not handling exceptions in loops
 
 ### 🔥 **Advanced Gotchas**
 
-- Recursion without base cases
-- Generator memory leaks
-- Async/await misuse
-- State machine deadlocks
+- Complex nested conditions that are hard to read
+- Performance issues with deep nesting
+- Not understanding short-circuit evaluation
+- Memory issues with large loop iterations
 
 ---
 
@@ -163,24 +165,24 @@ graph TD
 
 - [Python Control Flow](https://docs.python.org/3/tutorial/controlflow.html) 📖
 - [Compound Statements](https://docs.python.org/3/reference/compound_stmts.html) 🔧
-- [Iterator Protocol](https://docs.python.org/3/reference/datamodel.html#object.__iter__) 🏗️
+- [Boolean Operations](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not) 🎯
 
 ### 🎓 **Learning Resources**
 
 - [Real Python: Control Flow](https://realpython.com/python-conditional-statements/) 🐍
 - [Python Loops Tutorial](https://realpython.com/python-for-loop/) 🔄
-- [PEP 8: Style Guide](https://peps.python.org/pep-0008/) 📝
+- [Control Flow Best Practices](https://docs.python.org/3/howto/doanddont.html) 💡
 
 ### 🧪 **Practice Platforms**
 
-- [LeetCode Python](https://leetcode.com/) 💻
-- [HackerRank Python](https://www.hackerrank.com/) 🏆
-- [Codewars Python](https://www.codewars.com/) ⚔️
+- [Python Control Flow](https://www.hackerrank.com/) 🏆
+- [Loop Problems](https://leetcode.com/) 💻
+- [Control Flow Challenges](https://www.codewars.com/) ⚔️
 
 ### 🔍 **Debugging Tools**
 
 - [Python Debugger (pdb)](https://docs.python.org/3/library/pdb.html) 🐛
-- [IPython](https://ipython.org/) 🐍
+- [Python Tutor Visualizer](https://pythontutor.com/) 👁️
 - [VS Code Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 💻
 
 ---
@@ -193,110 +195,178 @@ After completing each level, ask yourself:
 
 **Basic Level:**
 
-- [ ] Can I write clear if/elif/else statements?
-- [ ] Do I understand logical operators and precedence?
-- [ ] Can I use for and while loops effectively?
+- [ ] Can I write basic if/elif/else statements?
+- [ ] Do I understand Boolean logic and operators?
+- [ ] Can I use comparison operators correctly?
+- [ ] Do I understand Python indentation rules?
 
 **Intermediate Level:**
 
-- [ ] Do I understand nested loops and their performance?
-- [ ] Can I use break and continue appropriately?
-- [ ] Do I know when to use list comprehensions?
+- [ ] Can I use for and while loops effectively?
+- [ ] Do I understand break, continue, and pass?
+- [ ] Can I work with nested loops?
+- [ ] Do I handle loop control properly?
 
 **Advanced Level:**
 
-- [ ] Can I implement recursive and iterative solutions?
-- [ ] Do I understand generator functions and their benefits?
-- [ ] Can I optimize loop performance?
+- [ ] Can I write list comprehensions with conditions?
+- [ ] Do I understand ternary operators?
+- [ ] Can I handle exceptions in control flow?
+- [ ] Do I optimize loop performance?
 
 **Expert Level:**
 
-- [ ] Can I design and implement state machines?
-- [ ] Do I understand async/await control flow?
-- [ ] Can I create custom iterators?
+- [ ] Can I use pattern matching effectively?
+- [ ] Do I understand complex decision trees?
+- [ ] Can I implement state machines?
+- [ ] Do I apply control flow in real-world scenarios?
 
 ---
 
-## 🏆 **Success Metrics**
+## 🚀 **Modern Python Features (2025)**
 
-### 📊 **Completion Criteria**
+### ✨ **Pattern Matching (Python 3.10+)**
 
-- ✅ **Basic Level:** Solve all questions 1-6 without help
-- ✅ **Intermediate Level:** Complete questions 7-12 with minimal errors
-- ✅ **Advanced Level:** Master questions 13-17 and explain concepts
-- ✅ **Expert Level:** Ace questions 18-20 and interview questions
+```python
+def analyze_data(data):
+    """Analyze data using pattern matching."""
+    match data:
+        case {"type": "user", "name": str() as name, "age": int() as age}:
+            return f"User {name} is {age} years old"
+        case {"type": "product", "name": str() as name, "price": float() as price}:
+            return f"Product {name} costs ${price:.2f}"
+        case list() as items if len(items) > 0:
+            return f"List with {len(items)} items"
+        case _:
+            return "Unknown data type"
 
-### 🎓 **Mastery Indicators**
+# Usage
+user_data = {"type": "user", "name": "Alice", "age": 30}
+result = analyze_data(user_data)  # "User Alice is 30 years old"
+```
 
-- 🧠 **Deep Understanding:** Can explain concepts to others
-- 💻 **Practical Skills:** Can solve real-world problems
-- 🔍 **Debugging Ability:** Can identify and fix control flow issues
-- ⚡ **Performance Awareness:** Understand optimization trade-offs
+### 🎯 **Enhanced Control Flow with Type Hints**
+
+```python
+from typing import Union, List, Dict, Any
+
+def process_items(
+    items: List[Union[str, int, float]],
+    condition: str = "all"
+) -> Dict[str, Any]:
+    """Process items with enhanced control flow."""
+    result = {
+        "total": len(items),
+        "processed": 0,
+        "filtered": []
+    }
+
+    for item in items:
+        match condition:
+            case "all":
+                result["processed"] += 1
+                result["filtered"].append(item)
+            case "numbers" if isinstance(item, (int, float)):
+                result["processed"] += 1
+                result["filtered"].append(item)
+            case "strings" if isinstance(item, str):
+                result["processed"] += 1
+                result["filtered"].append(item)
+            case _:
+                continue
+
+    return result
+```
+
+### 🔍 **Advanced Loop Patterns**
+
+```python
+from itertools import chain, islice
+from typing import Iterator
+
+def advanced_iteration(data: List[Any]) -> Iterator[str]:
+    """Advanced iteration patterns."""
+    # Chain multiple iterables
+    all_items = chain(data, ["extra", "items"])
+
+    # Slice and filter
+    for item in islice(all_items, 0, 100):  # Take first 100 items
+        if item is not None:
+            yield str(item).upper()
+
+# Generator expression with conditions
+filtered_data = (
+    str(item).upper()
+    for item in data
+    if item is not None and str(item).strip()
+)
+```
 
 ---
 
-## 🚀 **Next Steps After Mastery**
+## 📊 **Success Metrics**
 
-### 📚 **Advanced Topics to Explore**
+### 🎯 **Completion Criteria**
 
-- **Design Patterns** (Strategy, Observer, Command)
-- **Functional Programming** (map, filter, reduce)
-- **Concurrency** (threading, multiprocessing)
-- **Event-Driven Programming** (callbacks, event loops)
+- [ ] **Basic Level**: Complete all questions 1-6
+- [ ] **Intermediate Level**: Complete all questions 7-12
+- [ ] **Advanced Level**: Complete all questions 13-17
+- [ ] **Expert Level**: Complete all questions 18-20
+- [ ] **Additional Practice**: Complete all questions 21-30
 
-### 🎯 **Real-World Applications**
+### 📈 **Performance Benchmarks**
 
-- **Web Development:** Request routing and middleware
-- **Data Processing:** ETL pipelines and data transformation
-- **Game Development:** Game loops and state management
-- **Automation:** Workflow automation and task scheduling
+- **Conditional Statements**: < 0.1ms per condition
+- **Loop Iterations**: < 1ms for 1000 iterations
+- **Pattern Matching**: < 0.5ms per match
+- **Memory Usage**: < 10MB for complex control flow
 
----
+### 🏆 **Mastery Indicators**
 
-## 💡 **Pro Tips for Success**
-
-### 🎯 **Study Strategies**
-
-- **Practice Daily:** Consistency beats intensity
-- **Explain Concepts:** Teaching others reinforces learning
-- **Build Projects:** Apply concepts in real scenarios
-- **Review Regularly:** Spaced repetition improves retention
-
-### 🧠 **Learning Techniques**
-
-- **Visual Learning:** Use flowcharts and diagrams
-- **Hands-on Practice:** Code every concept you learn
-- **Error Analysis:** Learn from mistakes and debug them
-- **Concept Mapping:** Connect related ideas together
-
-### 🚀 **Motivation Tips**
-
-- **Set Clear Goals:** Know what you want to achieve
-- **Track Progress:** Celebrate small wins
-- **Join Communities:** Learn from others
-- **Stay Curious:** Always ask "why" and "how"
+- Can write clear and efficient control flow
+- Understands when to use different loop types
+- Can implement complex decision logic
+- Uses pattern matching effectively
+- Optimizes control flow for performance
 
 ---
 
-> **🌟 Remember:** Control flow is the foundation of all programming. Master these concepts and you'll have the tools to solve any programming problem!
+## 🔗 **Related Topics**
+
+- **Variables and Data Types**: Type-based decision making
+- **Functions**: Control flow in functions
+- **Data Structures**: Iteration over collections
+- **String Manipulation**: String-based conditions
+- **File Handling**: File processing loops
+- **Error Handling**: Exception control flow
+- **OOP**: Control flow in classes
+- **Modules**: Module-level control flow
+- **List Comprehensions**: Conditional comprehensions
+- **Decorators**: Control flow decorators
+- **Generators**: Generator control flow
 
 ---
 
-## 📞 **Need Help?**
+## 🎉 **Congratulations!**
 
-### 🤝 **Community Resources**
+You've completed the Control Flow learning path! You now have:
 
-- [Python Discord](https://discord.gg/python) 💬
-- [Stack Overflow Python](https://stackoverflow.com/questions/tagged/python) 🔍
-- [Reddit r/learnpython](https://www.reddit.com/r/learnpython/) 📱
+- ✅ **Solid foundation** in Python control flow
+- ✅ **Advanced skills** in loops and iteration
+- ✅ **Expert knowledge** in pattern matching
+- ✅ **Real-world experience** with decision making
 
-### 📧 **Study Groups**
+**Next Steps:**
 
-- Form study groups with fellow learners
-- Share solutions and discuss approaches
-- Review each other's code
-- Celebrate achievements together
+- Practice with real-world projects
+- Explore related topics (Functions, Data Structures)
+- Build decision-making applications
+- Contribute to open-source projects
 
 ---
 
-**🎉 You're ready to master Python control flow! Start with Question 1 and work your way through systematically. Good luck!**
+> **💡 Pro Tip:** Control flow is the backbone of programming logic. Master these concepts and you'll be able to create complex, intelligent applications!
+
+---
+
+_Happy Learning! Remember, good control flow makes your code logical and efficient! 🔀✨_

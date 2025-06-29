@@ -1,6 +1,6 @@
 # 🐍 Functions: Complete Learning Guide
 
-> **Master Python's function fundamentals and advanced concepts!** 🔧
+> **Master Python's function system and functional programming!** ⚙️
 
 ---
 
@@ -9,16 +9,18 @@
 ```mermaid
 graph TD
     A[Start Here] --> B[Basic Functions]
-    B --> C[Parameters & Arguments]
-    C --> D[Advanced Concepts]
-    D --> E[Functional Programming]
-    E --> F[Real-World Applications]
+    B --> C[Function Parameters]
+    C --> D[Return Values & Scope]
+    D --> E[Advanced Function Features]
+    E --> F[Functional Programming]
+    F --> G[Real-World Applications]
 
-    B --> B1[def, parameters, return]
-    C --> C1[*args, **kwargs, defaults]
-    D --> D1[Decorators, closures]
-    E --> E1[Lambda, map, filter]
-    F --> F1[Async, optimization]
+    B --> B1[Function Definition & Call]
+    C --> C1[Args, kwargs, defaults]
+    D --> D1[Return statements & scope]
+    E --> E1[Closures & decorators]
+    F --> F1[map, filter, reduce]
+    G --> G1[API design & patterns]
 ```
 
 ---
@@ -28,34 +30,34 @@ graph TD
 ### 🌱 **Foundation Level**
 
 - [ ] **Basic Functions** ⭐
-  - [ ] Function definition (def)
-  - [ ] Parameters and arguments
-  - [ ] Return statements
-  - [ ] Function calls
+  - [ ] Function definition and calling
+  - [ ] Basic parameters and arguments
+  - [ ] Return statements and values
+  - [ ] Function scope and namespaces
 
 ### 🌿 **Intermediate Level**
 
-- [ ] **Advanced Parameters** ⭐⭐
-  - [ ] Default parameters
+- [ ] **Function Parameters & Arguments** ⭐⭐
+  - [ ] Default parameters and keyword arguments
   - [ ] \*args and \*\*kwargs
-  - [ ] Keyword arguments
-  - [ ] Parameter unpacking
+  - [ ] Parameter validation and type hints
+  - [ ] Function overloading patterns
 
 ### 🌳 **Advanced Level**
 
-- [ ] **Functional Programming** ⭐⭐⭐
-  - [ ] Lambda functions
-  - [ ] Higher-order functions
-  - [ ] Decorators
-  - [ ] Closures
+- [ ] **Advanced Function Features** ⭐⭐⭐
+  - [ ] Closures and nested functions
+  - [ ] Function decorators
+  - [ ] Lambda functions and expressions
+  - [ ] Function composition and chaining
 
 ### 🏔️ **Expert Level**
 
-- [ ] **Advanced Concepts** ⭐⭐⭐⭐
-  - [ ] Metaclasses
-  - [ ] Async functions
-  - [ ] Function optimization
-  - [ ] Dynamic function creation
+- [ ] **Functional Programming & Design** ⭐⭐⭐⭐
+  - [ ] Pure functions and side effects
+  - [ ] Higher-order functions
+  - [ ] Function design patterns
+  - [ ] Performance optimization
 
 ---
 
@@ -63,43 +65,43 @@ graph TD
 
 ### **Week 1: Foundation** 🟢
 
-| Day | Topic                  | Time    | Resources                                                                                   |
-| --- | ---------------------- | ------- | ------------------------------------------------------------------------------------------- |
-| 1   | Basic Functions        | 2 hours | [Python Docs](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)       |
-| 2   | Parameters & Arguments | 2 hours | [Real Python](https://realpython.com/defining-your-own-python-function/)                    |
-| 3   | Return Values          | 2 hours | [Function Returns](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)  |
-| 4   | Variable Scope         | 2 hours | [Scope Rules](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces) |
-| 5   | Practice & Review      | 2 hours | Questions 1-6                                                                               |
+| Day | Topic               | Time    | Resources                                                                                             |
+| --- | ------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
+| 1   | Basic Functions     | 2 hours | [Python Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)            |
+| 2   | Function Parameters | 2 hours | [Function Parameters](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions) |
+| 3   | Return Statements   | 2 hours | [Return Statements](https://docs.python.org/3/reference/simple_stmts.html#return)                     |
+| 4   | Function Scope      | 2 hours | [Scope Rules](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces)           |
+| 5   | Practice & Review   | 2 hours | Questions 1-6                                                                                         |
 
 ### **Week 2: Intermediate** 🟡
 
-| Day | Topic                 | Time    | Resources                                                                                          |
-| --- | --------------------- | ------- | -------------------------------------------------------------------------------------------------- |
-| 6   | \*args and \*\*kwargs | 3 hours | [Variable Arguments](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists) |
-| 7   | Lambda Functions      | 2 hours | [Lambda Expressions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)       |
-| 8   | Decorators            | 2 hours | [Decorators](https://docs.python.org/3/glossary.html#term-decorator)                               |
-| 9   | Recursion             | 2 hours | [Recursive Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)      |
-| 10  | Practice & Review     | 2 hours | Questions 7-12                                                                                     |
+| Day | Topic                 | Time    | Resources                                                                                           |
+| --- | --------------------- | ------- | --------------------------------------------------------------------------------------------------- |
+| 6   | Default Parameters    | 3 hours | [Default Arguments](https://docs.python.org/3/tutorial/controlflow.html#default-argument-values)    |
+| 7   | Keyword Arguments     | 2 hours | [Keyword Arguments](https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments)          |
+| 8   | \*args and \*\*kwargs | 2 hours | [Arbitrary Arguments](https://docs.python.org/3/tutorial/controlflow.html#arbitrary-argument-lists) |
+| 9   | Type Hints            | 2 hours | [Type Hints](https://docs.python.org/3/library/typing.html)                                         |
+| 10  | Practice & Review     | 2 hours | Questions 7-12                                                                                      |
 
 ### **Week 3: Advanced** 🟠
 
-| Day | Topic                  | Time    | Resources                                                                                |
-| --- | ---------------------- | ------- | ---------------------------------------------------------------------------------------- |
-| 11  | Closures               | 3 hours | [Closures](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces) |
-| 12  | Higher-Order Functions | 2 hours | [Functional Programming](https://docs.python.org/3/howto/functional.html)                |
-| 13  | Function Factories     | 2 hours | [Factory Pattern](https://en.wikipedia.org/wiki/Factory_method_pattern)                  |
-| 14  | Memoization            | 2 hours | [Memoization](https://en.wikipedia.org/wiki/Memoization)                                 |
-| 15  | Practice & Review      | 2 hours | Questions 13-17                                                                          |
+| Day | Topic                | Time    | Resources                                                                                    |
+| --- | -------------------- | ------- | -------------------------------------------------------------------------------------------- |
+| 11  | Closures             | 3 hours | [Closures](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces)     |
+| 12  | Lambda Functions     | 3 hours | [Lambda Expressions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions) |
+| 13  | Function Decorators  | 2 hours | [Decorators](https://docs.python.org/3/glossary.html#term-decorator)                         |
+| 14  | Function Composition | 2 hours | [Function Composition](https://docs.python.org/3/library/functools.html)                     |
+| 15  | Practice & Review    | 2 hours | Questions 13-17                                                                              |
 
 ### **Week 4: Expert** 🔴
 
-| Day | Topic                 | Time    | Resources                                                                     |
-| --- | --------------------- | ------- | ----------------------------------------------------------------------------- |
-| 16  | Metaclasses           | 3 hours | [Metaclasses](https://docs.python.org/3/reference/datamodel.html#metaclasses) |
-| 17  | Async Functions       | 2 hours | [Async/Await](https://docs.python.org/3/library/asyncio.html)                 |
-| 18  | Function Optimization | 3 hours | [Performance Tips](https://wiki.python.org/moin/PythonSpeed/PerformanceTips)  |
-| 19  | Final Review          | 2 hours | All Questions                                                                 |
-| 20  | Assessment            | 1 hour  | Interview Questions                                                           |
+| Day | Topic                    | Time    | Resources                                                                  |
+| --- | ------------------------ | ------- | -------------------------------------------------------------------------- |
+| 16  | Functional Programming   | 3 hours | [Functional Programming](https://docs.python.org/3/howto/functional.html)  |
+| 17  | Higher-Order Functions   | 2 hours | [Higher-Order Functions](https://docs.python.org/3/library/functools.html) |
+| 18  | Function Design Patterns | 3 hours | [Design Patterns](https://docs.python.org/3/howto/doanddont.html)          |
+| 19  | Final Review             | 2 hours | All Questions                                                              |
+| 20  | Assessment               | 1 hour  | Interview Questions                                                        |
 
 ---
 
@@ -136,24 +138,24 @@ graph TD
 
 ### ❌ **Beginner Mistakes**
 
-- Forgetting colons after function definition
-- Using print instead of return
-- Not understanding parameter order
-- Ignoring function documentation
+- Not using return statements properly
+- Confusing parameters with arguments
+- Not understanding function scope
+- Using mutable default arguments
 
 ### ⚠️ **Intermediate Pitfalls**
 
-- Confusing \*args and \*\*kwargs
-- Using mutable default arguments
-- Forgetting to call decorated functions
-- Ignoring function scope rules
+- Overusing \*args and \*\*kwargs
+- Not validating function parameters
+- Ignoring function documentation
+- Not handling exceptions in functions
 
 ### 🔥 **Advanced Gotchas**
 
-- Overusing lambda functions
-- Creating overly complex decorators
-- Ignoring function performance
-- Misusing async/await syntax
+- Circular import dependencies
+- Memory leaks with closures
+- Performance issues with decorators
+- Not understanding function composition
 
 ---
 
@@ -162,25 +164,25 @@ graph TD
 ### 📚 **Official Documentation**
 
 - [Python Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) 📖
-- [Function Objects](https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy) 🔧
-- [Decorators](https://docs.python.org/3/glossary.html#term-decorator) 🏗️
+- [Function Parameters](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions) 🔧
+- [Type Hints](https://docs.python.org/3/library/typing.html) 🎯
 
 ### 🎓 **Learning Resources**
 
 - [Real Python: Functions](https://realpython.com/defining-your-own-python-function/) 🐍
 - [Python Decorators](https://realpython.com/primer-on-python-decorators/) 🎨
-- [Functional Programming](https://docs.python.org/3/howto/functional.html) 🔧
+- [Functional Programming](https://docs.python.org/3/howto/functional.html) ⚙️
 
 ### 🧪 **Practice Platforms**
 
-- [LeetCode Python](https://leetcode.com/) 💻
-- [HackerRank Python](https://www.hackerrank.com/) 🏆
-- [Codewars Python](https://www.codewars.com/) ⚔️
+- [Python Functions](https://www.hackerrank.com/) 🏆
+- [Function Problems](https://leetcode.com/) 💻
+- [Functional Programming](https://www.codewars.com/) ⚔️
 
 ### 🔍 **Debugging Tools**
 
 - [Python Debugger (pdb)](https://docs.python.org/3/library/pdb.html) 🐛
-- [IPython](https://ipython.org/) 🐍
+- [Function Inspector](https://docs.python.org/3/library/inspect.html) 🔍
 - [VS Code Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) 💻
 
 ---
@@ -194,109 +196,163 @@ After completing each level, ask yourself:
 **Basic Level:**
 
 - [ ] Can I define and call functions properly?
-- [ ] Do I understand parameter passing?
+- [ ] Do I understand function parameters and arguments?
 - [ ] Can I use return statements effectively?
+- [ ] Do I understand function scope?
 
 **Intermediate Level:**
 
+- [ ] Can I use default parameters and keyword arguments?
 - [ ] Do I understand \*args and \*\*kwargs?
-- [ ] Can I create and use decorators?
-- [ ] Do I know when to use lambda functions?
+- [ ] Can I implement type hints?
+- [ ] Do I validate function parameters?
 
 **Advanced Level:**
 
-- [ ] Can I implement closures and higher-order functions?
-- [ ] Do I understand functional programming concepts?
-- [ ] Can I optimize function performance?
+- [ ] Can I create closures and nested functions?
+- [ ] Do I understand lambda functions?
+- [ ] Can I use function decorators?
+- [ ] Do I implement function composition?
 
 **Expert Level:**
 
-- [ ] Can I create metaclasses and dynamic functions?
-- [ ] Do I understand async/await programming?
-- [ ] Can I profile and optimize functions?
+- [ ] Can I write pure functions?
+- [ ] Do I understand higher-order functions?
+- [ ] Can I implement function design patterns?
+- [ ] Do I optimize function performance?
 
 ---
 
-## 🏆 **Success Metrics**
+## 🚀 **Modern Python Features (2025)**
 
-### 📊 **Completion Criteria**
+### ✨ **Enhanced Type Hints (Python 3.10+)**
 
-- ✅ **Basic Level:** Solve all questions 1-6 without help
-- ✅ **Intermediate Level:** Complete questions 7-12 with minimal errors
-- ✅ **Advanced Level:** Master questions 13-17 and explain concepts
-- ✅ **Expert Level:** Ace questions 18-20 and interview questions
+```python
+from typing import Callable, TypeVar, ParamSpec, Concatenate
 
-### 🎓 **Mastery Indicators**
+P = ParamSpec('P')
+T = TypeVar('T')
 
-- 🧠 **Deep Understanding:** Can explain concepts to others
-- 💻 **Practical Skills:** Can solve real-world problems
-- 🔍 **Debugging Ability:** Can identify and fix function issues
-- ⚡ **Performance Awareness:** Understand optimization trade-offs
+def with_logging(func: Callable[P, T]) -> Callable[P, T]:
+    """Decorator with enhanced type hints."""
+    def wrapper(*args: P.args, **kwargs: P.kwargs) -> T:
+        print(f"Calling {func.__name__}")
+        result = func(*args, **kwargs)
+        print(f"Finished {func.__name__}")
+        return result
+    return wrapper
 
----
+@with_logging
+def process_data(name: str, value: int) -> str:
+    return f"Processed {name}: {value}"
+```
 
-## 🚀 **Next Steps After Mastery**
+### 🎯 **Pattern Matching in Functions**
 
-### 📚 **Advanced Topics to Explore**
+```python
+def process_command(command: dict) -> str:
+    """Process commands using pattern matching."""
+    match command:
+        case {"action": "create", "data": data}:
+            return f"Creating: {data}"
+        case {"action": "update", "id": id, "data": data}:
+            return f"Updating {id}: {data}"
+        case {"action": "delete", "id": id}:
+            return f"Deleting {id}"
+        case _:
+            return "Unknown command"
 
-- **Design Patterns** (Strategy, Command, Observer)
-- **Functional Programming** (monads, functors)
-- **Metaprogramming** (code generation, AST manipulation)
-- **Performance Optimization** (profiling, benchmarking)
+# Usage
+result = process_command({"action": "create", "data": "user"})
+```
 
-### 🎯 **Real-World Applications**
+### 🔍 **Async Functions and Generators**
 
-- **Web Development:** API endpoints and middleware
-- **Data Science:** Data processing pipelines
-- **Automation:** Script automation and task scheduling
-- **Testing:** Test frameworks and mocking
+```python
+import asyncio
+from typing import AsyncGenerator, AsyncIterator
 
----
+async def async_data_processor(data: list) -> AsyncGenerator[str, None]:
+    """Async generator function."""
+    for item in data:
+        await asyncio.sleep(0.1)  # Simulate async processing
+        yield f"Processed: {item}"
 
-## 💡 **Pro Tips for Success**
+async def main():
+    """Main async function."""
+    data = ["item1", "item2", "item3"]
+    async for result in async_data_processor(data):
+        print(result)
 
-### 🎯 **Study Strategies**
-
-- **Practice Daily:** Consistency beats intensity
-- **Explain Concepts:** Teaching others reinforces learning
-- **Build Projects:** Apply concepts in real scenarios
-- **Review Regularly:** Spaced repetition improves retention
-
-### 🧠 **Learning Techniques**
-
-- **Visual Learning:** Use flowcharts and diagrams
-- **Hands-on Practice:** Code every concept you learn
-- **Error Analysis:** Learn from mistakes and debug them
-- **Concept Mapping:** Connect related ideas together
-
-### 🚀 **Motivation Tips**
-
-- **Set Clear Goals:** Know what you want to achieve
-- **Track Progress:** Celebrate small wins
-- **Join Communities:** Learn from others
-- **Stay Curious:** Always ask "why" and "how"
-
----
-
-> **🌟 Remember:** Functions are the foundation of modular, reusable code. Master these concepts and you'll write cleaner, more maintainable programs!
-
----
-
-## 📞 **Need Help?**
-
-### 🤝 **Community Resources**
-
-- [Python Discord](https://discord.gg/python) 💬
-- [Stack Overflow Python](https://stackoverflow.com/questions/tagged/python) 🔍
-- [Reddit r/learnpython](https://www.reddit.com/r/learnpython/) 📱
-
-### 📧 **Study Groups**
-
-- Form study groups with fellow learners
-- Share solutions and discuss approaches
-- Review each other's code
-- Celebrate achievements together
+# Run async function
+asyncio.run(main())
+```
 
 ---
 
-**🎉 You're ready to master Python functions! Start with Question 1 and work your way through systematically. Good luck!**
+## 📊 **Success Metrics**
+
+### 🎯 **Completion Criteria**
+
+- [ ] **Basic Level**: Complete all questions 1-6
+- [ ] **Intermediate Level**: Complete all questions 7-12
+- [ ] **Advanced Level**: Complete all questions 13-17
+- [ ] **Expert Level**: Complete all questions 18-20
+- [ ] **Additional Practice**: Complete all questions 21-30
+
+### 📈 **Performance Benchmarks**
+
+- **Function Calls**: < 0.1ms per call
+- **Decorator Overhead**: < 1ms per decorated function
+- **Lambda Operations**: < 0.05ms per lambda
+- **Memory Usage**: < 1KB per function definition
+
+### 🏆 **Mastery Indicators**
+
+- Can design and implement functions effectively
+- Understands function parameters and scope
+- Can use advanced function features
+- Implements functional programming patterns
+- Optimizes function performance
+
+---
+
+## 🔗 **Related Topics**
+
+- **Variables and Data Types**: Function parameters and return types
+- **Control Flow**: Function execution flow
+- **Data Structures**: Function data handling
+- **String Manipulation**: String processing functions
+- **File Handling**: File operation functions
+- **Error Handling**: Exception handling in functions
+- **OOP**: Methods and class functions
+- **Modules**: Module-level functions
+- **List Comprehensions**: Function comprehensions
+- **Decorators**: Function decorators
+- **Generators**: Generator functions
+
+---
+
+## 🎉 **Congratulations!**
+
+You've completed the Functions learning path! You now have:
+
+- ✅ **Solid foundation** in Python functions
+- ✅ **Advanced skills** in function parameters
+- ✅ **Expert knowledge** in functional programming
+- ✅ **Real-world experience** with function design
+
+**Next Steps:**
+
+- Practice with real-world projects
+- Explore related topics (Data Structures, OOP)
+- Build function-based applications
+- Contribute to open-source projects
+
+---
+
+> **💡 Pro Tip:** Functions are the building blocks of modular, reusable code. Master these concepts and you'll be able to create clean, maintainable applications!
+
+---
+
+_Happy Learning! Remember, good functions make your code modular and reusable! ⚙️✨_

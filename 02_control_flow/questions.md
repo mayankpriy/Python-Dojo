@@ -701,6 +701,354 @@
 
 ---
 
+## 🆕 **Additional Practice Questions** (21-30)
+
+### Question 21: Modern Pattern Matching with Match/Case ⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Modern Python Features  
+**📝 Skills Tested:** Pattern matching, structural matching
+
+**Task:** Use Python 3.10+ pattern matching to handle different data structures and types.
+
+**Real-life Scenario:** You're building a data processing API that receives various message formats:
+
+- Handle JSON messages with different structures
+- Process different data types (dict, list, tuple, custom objects)
+- Extract specific fields based on message type
+- Apply different processing logic for each pattern
+
+**Think about:**
+
+- How does pattern matching differ from traditional if/elif chains?
+- When is pattern matching more readable than multiple if statements?
+- How do you handle nested patterns and complex data structures?
+
+**Challenge yourself:**
+
+- Can you implement a message router that handles 10+ different message types?
+- What if you need to match against custom classes with specific attributes?
+
+**If you can't solve this, review:** Pattern matching syntax, structural matching, Python 3.10+ features
+
+**🎯 Pattern Matching:** More readable than nested if/elif chains for complex data!
+
+---
+
+### Question 22: Enhanced F-strings with Expressions ⭐⭐
+
+**⏱️ Time Estimate:** 20 minutes  
+**🎯 Category:** String Formatting  
+**📝 Skills Tested:** F-string expressions, Python 3.12+ features
+
+**Task:** Use enhanced f-strings (PEP 701) to create dynamic string formatting with complex expressions.
+
+**Real-life Scenario:** You're building a logging system that formats messages dynamically:
+
+- Include calculated values directly in f-strings
+- Use multi-line f-strings for complex formatting
+- Handle quotes and special characters in expressions
+- Create dynamic templates based on data types
+
+**Think about:**
+
+- How do enhanced f-strings improve code readability?
+- When should you use f-strings vs other formatting methods?
+- How do you handle complex expressions within f-strings?
+
+**Challenge yourself:**
+
+- Can you create a dynamic SQL query builder using f-strings?
+- What if you need to format nested data structures?
+
+**If you can't solve this, review:** F-string syntax, PEP 701, string formatting best practices
+
+**💬 Enhanced F-strings:** Support any valid Python expression and multi-line formatting!
+
+---
+
+### Question 23: Walrus Operator in Control Flow ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Assignment Expressions  
+**📝 Skills Tested:** Walrus operator, control flow optimization
+
+**Task:** Use the walrus operator (:=) to optimize control flow and reduce code duplication.
+
+**Real-life Scenario:** You're building a data validation system:
+
+- Validate user input and use the result in conditions
+- Process data streams and check conditions simultaneously
+- Optimize loops by combining assignment and condition checking
+- Handle API responses with immediate validation
+
+**Think about:**
+
+- When does the walrus operator make code more readable?
+- How do you avoid overusing the walrus operator?
+- What are the performance implications of using assignment expressions?
+
+**Challenge yourself:**
+
+- Can you refactor existing code to use the walrus operator effectively?
+- What if you need to handle multiple walrus operations in one expression?
+
+**If you can't solve this, review:** Assignment expressions, walrus operator syntax, control flow optimization
+
+**🦦 Walrus Operator:** Combine assignment and condition checking for cleaner code!
+
+---
+
+### Question 24: Context Managers with Multiple Resources ⭐⭐⭐
+
+**⏱️ Time Estimate:** 35 minutes  
+**🎯 Category:** Resource Management  
+**📝 Skills Tested:** Context managers, resource coordination
+
+**Task:** Create context managers that handle multiple resources and coordinate their lifecycle.
+
+**Real-life Scenario:** You're building a database transaction system:
+
+- Manage database connections and transactions
+- Handle file operations within database transactions
+- Coordinate logging and monitoring resources
+- Ensure proper cleanup of all resources
+
+**Think about:**
+
+- How do you ensure all resources are properly managed?
+- What happens when one resource fails to initialize?
+- How do you handle nested context managers?
+
+**Challenge yourself:**
+
+- Can you implement a distributed transaction coordinator?
+- What if you need to handle resource dependencies?
+
+**If you can't solve this, review:** Context managers, resource management, exception handling
+
+**🔧 Resource Management:** Ensure proper cleanup with context managers!
+
+---
+
+### Question 25: Generator Expressions and Memory Efficiency ⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Memory Optimization  
+**📝 Skills Tested:** Generator expressions, memory efficiency
+
+**Task:** Use generator expressions to process large datasets efficiently without loading everything into memory.
+
+**Real-life Scenario:** You're processing a large log file:
+
+- Filter log entries based on criteria
+- Transform data without storing intermediate results
+- Calculate statistics on streaming data
+- Handle data that's too large to fit in memory
+
+**Think about:**
+
+- When should you use generator expressions vs list comprehensions?
+- How do generator expressions improve memory usage?
+- What are the trade-offs between memory and performance?
+
+**Challenge yourself:**
+
+- Can you implement a streaming data processor?
+- What if you need to process data from multiple sources?
+
+**If you can't solve this, review:** Generator expressions, memory management, streaming data
+
+**💾 Memory Efficiency:** Process large datasets without loading everything into memory!
+
+---
+
+### Question 26: Async Control Flow with asyncio ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 45 minutes  
+**🎯 Category:** Asynchronous Programming  
+**📝 Skills Tested:** asyncio, async/await, concurrent control flow
+
+**Task:** Implement asynchronous control flow using asyncio for concurrent operations.
+
+**Real-life Scenario:** You're building a web scraper that processes multiple URLs:
+
+- Fetch data from multiple websites concurrently
+- Process responses as they arrive
+- Handle timeouts and retries
+- Coordinate multiple async operations
+
+**Think about:**
+
+- How does async control flow differ from synchronous control flow?
+- When should you use async/await vs threading?
+- How do you handle errors in async operations?
+
+**Challenge yourself:**
+
+- Can you implement a rate-limited async web scraper?
+- What if you need to coordinate multiple async services?
+
+**If you can't solve this, review:** asyncio, async/await syntax, concurrent programming
+
+**⚡ Async Control Flow:** Handle multiple operations concurrently for better performance!
+
+---
+
+### Question 27: Type-Guarded Control Flow ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Type Safety  
+**📝 Skills Tested:** Type guards, runtime type checking
+
+**Task:** Use type guards and runtime type checking to create type-safe control flow.
+
+**Real-life Scenario:** You're building a data processing pipeline:
+
+- Handle different data types safely
+- Implement type-specific processing logic
+- Validate data types at runtime
+- Create type-safe API endpoints
+
+**Think about:**
+
+- How do type guards improve code safety?
+- When should you use runtime type checking?
+- How do you balance type safety with performance?
+
+**Challenge yourself:**
+
+- Can you implement a type-safe data validation framework?
+- What if you need to handle complex nested types?
+
+**If you can't solve this, review:** Type guards, isinstance(), runtime type checking
+
+**🛡️ Type Safety:** Ensure correct data types at runtime for robust applications!
+
+---
+
+### Question 28: Functional Control Flow with Higher-Order Functions ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 40 minutes  
+**🎯 Category:** Functional Programming  
+**📝 Skills Tested:** Higher-order functions, functional control flow
+
+**Task:** Implement control flow using functional programming concepts and higher-order functions.
+
+**Real-life Scenario:** You're building a data transformation pipeline:
+
+- Chain multiple operations using functional composition
+- Implement conditional logic using higher-order functions
+- Create reusable control flow patterns
+- Handle error cases functionally
+
+**Think about:**
+
+- How does functional control flow differ from imperative control flow?
+- When is functional programming more appropriate?
+- How do you handle side effects in functional code?
+
+**Challenge yourself:**
+
+- Can you implement a functional data processing framework?
+- What if you need to handle complex branching logic functionally?
+
+**If you can't solve this, review:** Higher-order functions, functional programming, function composition
+
+**🔗 Functional Flow:** Create composable and reusable control flow patterns!
+
+---
+
+### Question 29: Event-Driven Control Flow ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 50 minutes  
+**🎯 Category:** Event Programming  
+**📝 Skills Tested:** Event handling, reactive programming
+
+**Task:** Implement event-driven control flow for reactive applications.
+
+**Real-life Scenario:** You're building a real-time dashboard:
+
+- Handle user interface events
+- Process sensor data streams
+- Coordinate multiple event sources
+- Implement event filtering and routing
+
+**Think about:**
+
+- How does event-driven control flow work?
+- When should you use event-driven programming?
+- How do you handle event ordering and timing?
+
+**Challenge yourself:**
+
+- Can you implement a real-time data visualization system?
+- What if you need to handle thousands of events per second?
+
+**If you can't solve this, review:** Event handling, reactive programming, event-driven architecture
+
+**📡 Event-Driven:** Respond to events in real-time for interactive applications!
+
+---
+
+### Question 30: Advanced Control Flow with Metaclasses ⭐⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 60 minutes  
+**🎯 Category:** Metaprogramming  
+**📝 Skills Tested:** Metaclasses, dynamic control flow
+
+**Task:** Use metaclasses to create dynamic control flow patterns and behaviors.
+
+**Real-life Scenario:** You're building a framework that generates control flow automatically:
+
+- Create classes with automatic control flow methods
+- Implement domain-specific control flow patterns
+- Generate validation and processing logic
+- Create self-modifying control flow systems
+
+**Think about:**
+
+- How do metaclasses affect control flow?
+- When should you use metaprogramming for control flow?
+- How do you debug metaclass-generated control flow?
+
+**Challenge yourself:**
+
+- Can you implement a domain-specific language for control flow?
+- What if you need to generate control flow from configuration?
+
+**If you can't solve this, review:** Metaclasses, metaprogramming, dynamic code generation
+
+**🔮 Metaprogramming:** Generate control flow dynamically for flexible frameworks!
+
+---
+
+## 🎯 **Updated Study Progress Summary**
+
+### 📈 **Completion Status:**
+
+- 🟢 **Basic Level:** 0/6 completed
+- 🟡 **Intermediate Level:** 0/6 completed
+- 🟠 **Advanced Level:** 0/5 completed
+- 🔴 **Expert Level:** 0/3 completed
+- 🆕 **Additional Practice:** 0/10 completed
+
+### ⏱️ **Total Estimated Time:** 12 hours 15 minutes
+
+### 🎓 **Next Steps:**
+
+1. Start with Basic Level questions (1-6)
+2. Move to Intermediate when comfortable
+3. Challenge yourself with Advanced concepts
+4. Master Expert level for real-world scenarios
+5. Practice with Additional Questions (21-30) featuring modern Python features
+
+---
+
+> **💡 Pro Tip:** Modern Python features like pattern matching and enhanced f-strings make control flow more readable and powerful!
+
+---
+
 _Happy Learning! Remember, control flow is the backbone of all real-world applications! 🔄✨_
 
 ---
