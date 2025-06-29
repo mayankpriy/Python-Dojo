@@ -537,9 +537,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact & Connect
 
 - **👤 Creator:** [Mayank Priy](https://github.com/mayankpriy)
-- **📧 Email:** smayankpriy@gmail.com
-- **🐦 Twitter:** [@mayankpriy](https://twitter.com/mayankpriy)
-- **💼 LinkedIn:** [Mayank Priy](https://linkedin.com/in/mayankpriy)
+- **💼 LinkedIn:** [Mayank Priy](https://www.linkedin.com/in/mayankpriyy/)
 
 ---
 
