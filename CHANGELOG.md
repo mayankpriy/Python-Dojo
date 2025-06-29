@@ -112,3 +112,10 @@ We welcome contributions from the community! See [CONTRIBUTING.md](CONTRIBUTING.
 
 **Created with ❤️ by Mayank Priy**  
 **A comprehensive Python learning resource for the global community**
+
+## [Unreleased]
+
+## [2025-06-XX] Removed Outdated Additional Resources
+
+- Removed all outdated 'Additional Resources' sections from every topic README file for accuracy and modernity.
+- Ensured all learning guides are up-to-date and relevant for 2025.
