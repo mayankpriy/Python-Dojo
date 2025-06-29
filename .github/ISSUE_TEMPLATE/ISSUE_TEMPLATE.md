@@ -1,3 +1,11 @@
+---
+name: 🐛 Issue Report / 💡 Feature Request
+about: Report a bug or request a new feature for Python Dojo
+title: "[BUG/FEATURE] "
+labels: ["bug", "enhancement", "question"]
+assignees: ["mayankpriy"]
+---
+
 # 🐛 Issue Report / 💡 Feature Request
 
 ## 📋 Issue Type
