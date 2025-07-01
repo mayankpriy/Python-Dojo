@@ -44,25 +44,45 @@ Python Dojo is a **comprehensive learning platform** designed to take you from P
 ```
 python-dojo/
 ├── 📁 01_variables_and_data_types/     # Variables, types, memory management
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 02_control_flow/                  # Loops, conditionals, program flow
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 03_functions/                     # Function definition, scope, recursion
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 04_data_structures/               # Lists, tuples, dictionaries, sets
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 05_string_manipulation/           # String operations, formatting, methods
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 06_file_handling/                 # File I/O, context managers
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 07_error_handling/                # Exceptions, try-catch, custom errors
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 08_object_oriented_programming/   # Classes, inheritance, polymorphism
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 09_modules_and_packages/          # Import system, package creation
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 10_list_comprehensions/           # List comprehensions, generators
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 11_decorators/                    # Function decorators, class decorators
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 12_generators/                    # Generator functions, yield
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 13_type_hints_and_annotations/    # Type hints, annotations, mypy
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 14_async_await_programming/       # Async/await, asyncio, coroutines
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 15_dataclasses_and_modern_oop/    # Dataclasses, modern OOP patterns
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 16_pathlib_file_operations/       # Pathlib, modern file operations
+│   └── 📁 solutions/                    # Student solutions
 ├── 📁 17_modern_string_formatting/      # F-strings, modern formatting
+│   └── 📁 solutions/                    # Student solutions
 ├── 🐛 debugging/                        # Comprehensive debugging challenges
 ├── 💼 interview/                        # Interview questions & preparation
 ├── 📋 python_roadmap_2025.md           # Complete 2025 learning roadmap
+├── 📋 SOLUTION_GUIDELINES.md            # Solution submission guidelines
+├── 📄 SOLUTION_TEMPLATE.py              # Solution file template
+├── 🤝 CONTRIBUTING.md                   # Contribution guidelines
 └── 📁 projects/                         # Real-world project ideas
 ```
 
@@ -270,10 +290,34 @@ python-dojo/
 1. **📋 Follow the 2025 Roadmap** - Use `python_roadmap_2025.md` for structured learning
 2. **📚 Choose a Topic** - Start with any of the 17 core topics
 3. **💻 Complete Questions** - Practice with real-world scenarios
-4. **🐛 Debug** - Solve debugging challenges
-5. **💼 Prepare** - Use interview questions for job prep
-6. **📈 Track Progress** - Use checklists and progress bars in each topic
-7. **🚀 Build Projects** - Apply skills to real-world projects in the projects/ folder
+4. **📝 Submit Solutions** - Share your solutions and learn from others
+5. **🐛 Debug** - Solve debugging challenges
+6. **💼 Prepare** - Use interview questions for job prep
+7. **📈 Track Progress** - Use checklists and progress bars in each topic
+8. **🚀 Build Projects** - Apply skills to real-world projects in the projects/ folder
+
+## 🎯 Solution Submission System
+
+### **For Students:**
+
+- 📁 Each topic has a `solutions/` folder
+- 📝 Create `question_XX.py` files with your solutions
+- 🧪 Test your code before submitting
+- 🔄 Create pull requests to share your work
+- 📚 Learn from other students' approaches
+
+### **For EdTech Companies:**
+
+- 🏢 Submit bulk solutions from your students
+- 📊 Use `question_XX_student_name.py` naming
+- 🤝 Collaborate with other institutions
+- 📈 Track student progress and engagement
+
+### **Guidelines & Templates:**
+
+- 📋 `SOLUTION_GUIDELINES.md` - Complete submission guide
+- 📄 `SOLUTION_TEMPLATE.py` - Solution file template
+- 🤝 `CONTRIBUTING.md` - Contribution workflow
 
 ---
 
