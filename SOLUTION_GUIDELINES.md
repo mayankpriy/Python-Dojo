@@ -144,7 +144,8 @@ if __name__ == "__main__":
 2. **Add All Solutions**
 
    - Create solution files for all students
-   - Use naming: `question_XX_student_name.py`
+   - Use standard naming: `question_XX.py`
+   - Include student names in the file header
 
 3. **Submit PR**
    - Create pull request with company name
@@ -192,9 +193,8 @@ if __name__ == "__main__":
 
 ### **Solution Files:**
 
-- `question_01.py` - Standard format
-- `question_01_student_name.py` - For company submissions
-- `question_01_alternative.py` - Alternative approaches
+- `question_01.py` - Standard format (include your name in the file header)
+- `question_01_alternative.py` - Alternative approaches (if you have multiple solutions)
 
 ### **Commit Messages:**
 

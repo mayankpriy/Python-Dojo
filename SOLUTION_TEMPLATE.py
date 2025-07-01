@@ -2,6 +2,7 @@
 Question X: [Question Title]
 Difficulty: ⭐⭐⭐
 Category: [Category Name]
+Solution Submitted By: [Your Name]
 
 [Copy the full question text here, including:
 - Task description

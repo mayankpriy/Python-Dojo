@@ -186,7 +186,8 @@ Add screenshots for UI changes
 
    ```bash
    # Create solution files for all students
-   # Use naming: question_XX_student_name.py
+   # Use standard naming: question_XX.py
+   # Include student names in the file header
    ```
 
 3. **Submit Bulk PR**

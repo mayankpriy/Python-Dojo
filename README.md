@@ -309,7 +309,7 @@ python-dojo/
 ### **For EdTech Companies:**
 
 - 🏢 Submit bulk solutions from your students
-- 📊 Use `question_XX_student_name.py` naming
+- 📊 Use standard `question_XX.py` naming with student names in file headers
 - 🤝 Collaborate with other institutions
 - 📈 Track student progress and engagement
 
