@@ -31,9 +31,13 @@ def my_solution():
 - [ ] Alternative implementations?
 - [ ] Edge cases to consider?
 
-## 🔍 What I Want to Discuss
+## 🙌 What Feedback Would Be Most Helpful?
 
-[Specific points you want feedback on]
+[Be specific: e.g., "Is my logic sound?", "How can I optimize this?", "Is there a more Pythonic way?"]
+
+## 📚 What Did You Learn?
+
+[Share what you learned from this problem or from others' feedback.]
 
 ## 📚 Learning Goals
 
@@ -45,4 +49,4 @@ def my_solution():
 
 ---
 
-**Let's learn together! Share your thoughts and approaches.** 🐍✨
+**Let's learn together! Share your thoughts and approaches.** 🎨

@@ -16,15 +16,19 @@ assignees: []
 
 [Describe what you're having trouble with]
 
-## 💭 What I've Tried
+## 💭 What I've Already Tried
 
-[Share your approach so far]
+[Share your approach so far, and what you've attempted to solve the problem]
 
 ```python
 # Your code attempt here
 def my_attempt():
     pass
 ```
+
+## 🙏 What Would Help Me Most
+
+[Be specific: e.g., "A hint about the algorithm," "Help with debugging," "Explanation of a concept," etc.]
 
 ## 📚 What I Need Help With
 
@@ -41,4 +45,4 @@ def my_attempt():
 
 ---
 
-**Remember:** This is a learning community! Be patient and helpful with others. 🐍✨
+**Thank you for being part of the Python Atelier community!** 🎨

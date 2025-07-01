@@ -34,6 +34,14 @@ assignees: []
 
 [Add screenshots if applicable]
 
+## 💡 Suggested Fix or Workaround
+
+[If you have an idea for a fix or a temporary workaround, share it here.]
+
+## ⚡ Impact
+
+[How does this bug affect your work or the project?]
+
 ## 🔍 Additional Context
 
 [Any other context about the problem]
@@ -48,4 +56,4 @@ assignees: []
 
 ---
 
-**Thank you for helping improve Python Dojo!** 🐍✨
+**Thank you for helping improve Python Atelier!** 🎨
