@@ -15,9 +15,23 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            await github.rest.pulls.requestReviewers({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number,
-              reviewers: ['mayankpriy']
-            });
+            // Get the PR author
+            const prAuthor = context.payload.pull_request.user.login;
+
+            // Define potential reviewers
+            const potentialReviewers = ['mayankpriy'];
+
+            // Filter out the PR author from reviewers
+            const reviewers = potentialReviewers.filter(reviewer => reviewer !== prAuthor);
+
+            // Only request reviewers if there are any available
+            if (reviewers.length > 0) {
+              await github.rest.pulls.requestReviewers({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                reviewers: reviewers
+              });
+            } else {
+              console.log('No reviewers available (PR author is the only potential reviewer)');
+            }

@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: read
+  pull-requests: write
   issues: read
 
 jobs:
@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update leaderboard
         run: |
@@ -76,10 +78,44 @@ jobs:
           *Updated automatically every Monday* 🕐
           EOF
 
-      - name: Commit and push leaderboard
+      - name: Create or update leaderboard branch
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Create or switch to leaderboard branch
+          git checkout -b leaderboard-update || git checkout leaderboard-update
+          git pull origin leaderboard-update || echo "Branch doesn't exist yet"
+
           git add LEADERBOARD.md
           git commit -m 'chore: update leaderboard [skip ci]' || echo 'No changes to commit'
-          git push
+          git push origin leaderboard-update
+
+      - name: Create Pull Request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // Check if PR already exists
+            const { data: existingPRs } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: 'leaderboard-update',
+              base: 'main',
+              state: 'open'
+            });
+
+            if (existingPRs.length === 0) {
+              // Create new PR
+              await github.rest.pulls.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '🏆 Update Leaderboard',
+                body: 'Automated leaderboard update from GitHub Actions',
+                head: 'leaderboard-update',
+                base: 'main',
+                draft: false
+              });
+            } else {
+              // Update existing PR
+              console.log('Pull request already exists, skipping creation');
+            }
