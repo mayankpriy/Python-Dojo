@@ -50,11 +50,14 @@ git clone https://github.com/Python-Atelier/python-core.git
 cd python-core
 
 # 2. Pick a topic and question
-cd 01_variables_and_data_types/questions.md
+cd 01_variables_and_data_types/
+# Read questions.md to find a question
 
 # 3. Submit your solution
 cd solutions/
-python question_01.py
+# Use solution_template.py as a starting point
+# Write your own solution - don't copy answers!
+python your_solution.py
 ```
 
 ---
@@ -70,6 +73,13 @@ Earn badges for:
 - And more!
 
 [See all badges →](BADGES.md)
+
+---
+
+## 🏅 Hall of Fame & Leaderboard
+
+- **Hall of Fame:** All contributors and badge earners are recognized automatically below (powered by [all-contributors](https://allcontributors.org/)).
+- **Leaderboard:** See the [Leaderboard](LEADERBOARD.md) for top contributors and badge earners (updated weekly).
 
 ---
 

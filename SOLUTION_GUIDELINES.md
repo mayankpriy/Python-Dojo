@@ -34,9 +34,55 @@ topic_folder/
 
 - Navigate to the `solutions/` folder in that topic
 - Create a new Python file: `question_XX.py` (replace XX with question number)
-- Use the template below
+- Use the appropriate template below based on what you know
 
-### 3. **Solution File Template**
+### 3. **Solution File Templates**
+
+Choose the template based on your current Python knowledge level:
+
+#### 🟢 **Template A: Absolute Beginner**
+
+```python
+"""
+Question X: [Question Title]
+Difficulty: ⭐
+Category: [Category]
+
+[Copy the full question text here]
+
+This solution uses only variables and print statements.
+Use this template if you have only learned about variables.
+"""
+
+# ===========================================
+# STEP 1: Create your variables
+# ===========================================
+
+# Create variables with the data you want to work with
+my_number = 42
+my_text = "hello"
+my_decimal = 3.14
+
+# ===========================================
+# STEP 2: Print your variables
+# ===========================================
+
+print("My variables contain:")
+print("my_number =", my_number)
+print("my_text =", my_text)
+print("my_decimal =", my_decimal)
+
+# ===========================================
+# STEP 3: Try to solve the question
+# ===========================================
+
+# Add your solution logic here
+# Use print() to show your results
+print("\nMy solution:")
+# Write your answer here
+```
+
+#### 🟡 **Template B: Intermediate**
 
 ```python
 """
@@ -50,48 +96,131 @@ Example:
     function_name("input") -> "expected_output"
 """
 
-# Your solution here
 def your_function_name():
-    # Write your solution
+    """
+    TODO: Write what your function does
+    """
+    # TODO: Write your solution here
     pass
 
 # Test your solution
 if __name__ == "__main__":
-    # Add test cases to verify your solution
     print("Testing your solution...")
-    # result = your_function_name("test_input")
-    # print(f"Result: {result}")
+    # TODO: Add test cases here
+    # Example: result = your_function_name("test_input")
+    # Example: print(f"Result: {result}")
+```
+
+#### 🔴 **Template C: Expert**
+
+```python
+"""
+Question X: [Question Title]
+Difficulty: ⭐⭐⭐⭐⭐
+Category: [Category]
+
+[Copy the full question text here]
+
+Example:
+    function_name("input") -> "expected_output"
+"""
+
+from typing import Any, Optional
+
+def your_function_name(param: Any) -> str:
+    """
+    Detailed description of what your function does.
+
+    Args:
+        param: Description of the parameter
+
+    Returns:
+        Description of the return value
+
+    Raises:
+        ValueError: When something goes wrong
+
+    Examples:
+        >>> your_function_name("test")
+        'expected_output'
+    """
+    # TODO: Write your solution here
+    pass
+
+# Comprehensive testing
+if __name__ == "__main__":
+    print("Running comprehensive tests...")
+
+    # Test cases
+    test_cases = [
+        ("input1", "expected1"),
+        ("input2", "expected2"),
+    ]
+
+    for test_input, expected in test_cases:
+        result = your_function_name(test_input)
+        status = "✅" if result == expected else "❌"
+        print(f"{status} {test_input} -> {result} (expected: {expected})")
 ```
 
 ### 4. **Code Quality Requirements**
 
+#### 🟢 **Template A (Absolute Beginner):**
+
 ✅ **Must Include:**
 
-- Clear function/class names
-- Type hints (where applicable)
-- Docstrings for functions/classes
-- Test cases in `if __name__ == "__main__":`
+- Variables with meaningful names
+- Print statements to show your work
+- Comments explaining what you're doing
+
+✅ **Code Style:**
+
+- Use clear variable names
+- Add comments to explain your steps
+- Test your code by running it
+
+#### 🟡 **Template B (Intermediate):**
+
+✅ **Must Include:**
+
+- Clear function names
+- Basic docstrings
+- Simple test cases
 - Comments explaining complex logic
 
 ✅ **Code Style:**
 
-- Follow PEP 8 guidelines
+- Follow basic Python conventions
 - Use meaningful variable names
-- Keep functions focused and small
-- Handle edge cases appropriately
+- Add comments for complex logic
 
-❌ **Avoid:**
+#### 🔴 **Template C (Expert):**
+
+✅ **Must Include:**
+
+- Type hints
+- Comprehensive docstrings
+- Extensive test cases
+- Error handling
+- Performance considerations
+
+✅ **Code Style:**
+
+- Follow all PEP 8 guidelines
+- Use type hints throughout
+- Write production-ready code
+- Include performance optimizations
+
+❌ **Avoid (All Levels):**
 
 - Hardcoded values without explanation
 - Overly complex one-liners
-- Missing error handling
+- Missing error handling (where appropriate)
 - Poor variable naming
 
 ---
 
 ## 🚀 Submission Process
-
-### **For Students (Individual Submissions):**
 
 1. **Fork the Repository**
 
@@ -123,7 +252,7 @@ if __name__ == "__main__":
 
    ```bash
    git add .
-   git commit -m "feat: Add solution for question 01 - Variables & Data Types"
+   git commit -m "feat: Add solution for question 01 - Variables"
    git push origin main
    ```
 
@@ -132,24 +261,6 @@ if __name__ == "__main__":
    - Click "New Pull Request"
    - Add description: "Solution for Question X in Topic Y"
    - Submit PR
-
-### **For EdTech Companies (Bulk Submissions):**
-
-1. **Create a Branch**
-
-   ```bash
-   git checkout -b company-name-student-solutions
-   ```
-
-2. **Add All Solutions**
-
-   - Create solution files for all students
-   - Use standard naming: `question_XX.py`
-   - Include student names in the file header
-
-3. **Submit PR**
-   - Create pull request with company name
-   - Include student names in description
 
 ---
 
@@ -199,97 +310,53 @@ if __name__ == "__main__":
 ### **Commit Messages:**
 
 - `feat: Add solution for question 01 - Variables`
-- `fix: Update solution for question 05 - Error handling`
-- `docs: Add comments to question 12 solution`
+- `feat: Add solution for question 02 - Control Flow`
+- `feat: Add solution for question 03 - Functions`
 
 ---
 
-## 🎓 Learning Tips
+## 🎯 Template Selection Guidelines
 
-### **Before Submitting:**
+### **Template A: Absolute Beginner**
 
-1. **Understand the Problem**
+Use this template when you have learned:
 
-   - Read the question carefully
-   - Identify input/output requirements
-   - Consider edge cases
+- Variable creation and assignment
+- Basic data types (int, float, str, bool)
+- Print statements
+- Basic comments
 
-2. **Plan Your Solution**
+### **Template B: Intermediate**
 
-   - Break down the problem
-   - Choose appropriate data structures
-   - Consider multiple approaches
+Use this template when you have learned:
 
-3. **Test Thoroughly**
+- All concepts from Template A
+- Function definition and calling
+- Parameters and return values
+- Basic docstrings
+- Main guard pattern
 
-   - Test with example inputs
-   - Test edge cases
-   - Test error conditions
+### **Template C: Expert**
 
-4. **Review Your Code**
-   - Check for readability
-   - Verify type hints
-   - Ensure proper documentation
+Use this template when you have learned:
 
-### **After Submission:**
-
-- Review other students' solutions
-- Learn from different approaches
-- Ask questions in PR comments
-- Improve your solution based on feedback
+- All concepts from Template B
+- Type hints
+- Advanced docstrings
+- Comprehensive testing
+- Error handling
+- Performance optimization
 
 ---
 
-## 🤝 Community Guidelines
+## 💡 Tips for Success
 
-### **Be Respectful:**
-
-- Provide constructive feedback
-- Appreciate different approaches
-- Help others learn
-
-### **Be Collaborative:**
-
-- Share your learning journey
-- Explain your thought process
-- Help debug others' solutions
-
-### **Be Patient:**
-
-- Review process takes time
-- Maintainers are volunteers
-- Focus on learning, not just winning
+1. **Start Simple** - Don't try to use concepts you haven't learned yet
+2. **Test Often** - Run your code frequently to catch errors early
+3. **Ask Questions** - Use the Discussions section if you get stuck
+4. **Learn from Others** - Look at other solutions after you've tried yourself
+5. **Have Fun** - Learning to code should be enjoyable!
 
 ---
 
-## 📞 Need Help?
-
-### **For Students:**
-
-- Ask questions in PR comments
-- Join our community discussions
-- Check existing solutions for inspiration
-
-### **For EdTech Companies:**
-
-- Contact maintainers for bulk submissions
-- Request custom question sets
-- Discuss integration options
-
----
-
-## 🎯 Success Metrics
-
-Track your progress:
-
-- [ ] Submitted first solution
-- [ ] Received feedback and improved
-- [ ] Had solution selected as best
-- [ ] Helped review others' solutions
-- [ ] Contributed to multiple topics
-
----
-
-**Happy Coding! 🐍✨**
-
-Remember: The goal is learning and collaboration, not just getting the right answer. Every solution teaches us something new!
+**Remember: There's no rush! Take your time and learn at your own pace. Every solution, no matter how simple, is valuable! 🐍✨**

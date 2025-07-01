@@ -1,0 +1,14 @@
+{
+  "projectName": "python-core",
+  "projectOwner": "Python-Atelier",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributorsPerLine": 7,
+  "badgeTemplate": "<a href='https://allcontributors.org/docs/en/badge'><img src='https://img.shields.io/badge/all_contributors-{{contributors}}-21bb42.svg' alt='All Contributors'/></a>",
+  "contributors": []
+}

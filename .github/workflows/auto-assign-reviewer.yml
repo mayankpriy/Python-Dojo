@@ -1,0 +1,17 @@
+name: 🤖 Auto Assign Reviewer
+
+on:
+  pull_request:
+    types: [opened, ready_for_review]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  add-reviewer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign default reviewer
+        uses: peter-evans/assign-reviewers@v3
+        with:
+          reviewers: mayankpriy

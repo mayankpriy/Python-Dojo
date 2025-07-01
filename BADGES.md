@@ -133,3 +133,10 @@
 ---
 
 **Start earning badges today! Every contribution counts towards your Python Atelier achievements.** 🎨✨
+
+## 🤖 Automated Badge Awarding
+
+- Badges are now awarded automatically using GitHub Actions and labels.
+- If your PR or issue is eligible for a badge, mention it in your description (e.g., "This PR is eligible for the 10 Solutions badge").
+- The system will apply the `badge-eligible` label and notify maintainers for review.
+- Once approved, your badge will be added to the Hall of Fame and you'll be recognized in the project!
