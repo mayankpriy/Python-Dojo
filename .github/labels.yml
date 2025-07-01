@@ -53,3 +53,27 @@
 - name: weekly-challenge
   color: "ff6b6b"
   description: "Weekly challenge submissions and discussions."
+
+- name: solutions
+  color: "0e8a16"
+  description: "Changes to solution files."
+
+- name: workflows
+  color: "5319e7"
+  description: "Changes to GitHub Actions workflows."
+
+- name: config
+  color: "fbca04"
+  description: "Changes to configuration files."
+
+- name: questions
+  color: "d93f0b"
+  description: "Changes to question files."
+
+- name: python
+  color: "3776ab"
+  description: "Changes to Python code files."
+
+- name: templates
+  color: "fef2c0"
+  description: "Changes to template files."
