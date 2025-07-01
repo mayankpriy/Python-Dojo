@@ -1,0 +1,87 @@
+name: 🏷️ Auto Label PRs
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Apply labels based on file paths
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+
+            const labels = new Set();
+
+            // Add default solution-submission label
+            labels.add('solution-submission');
+
+            // Check file paths and add appropriate labels
+            for (const file of files) {
+              const filename = file.filename;
+              
+              if (filename.includes('/solutions/')) {
+                labels.add('solutions');
+              }
+              if (filename.endsWith('.md') || filename.includes('docs/')) {
+                labels.add('documentation');
+              }
+              if (filename.includes('.github/workflows/')) {
+                labels.add('workflows');
+              }
+              if (filename.includes('.github/') || filename.includes('requirements.txt')) {
+                labels.add('config');
+              }
+              if (filename.includes('questions.md') || filename.includes('_questions.md')) {
+                labels.add('questions');
+              }
+              if (filename.endsWith('.py')) {
+                labels.add('python');
+              }
+              if (filename.includes('template')) {
+                labels.add('templates');
+              }
+            }
+
+            // Apply all labels
+            if (labels.size > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: Array.from(labels)
+              });
+            }
+
+      - name: Add badge-eligible label if PR contains 'badge' or 'achievement'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+            const body = pr.data.body || '';
+            if (/badge|achievement/i.test(body)) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['badge-eligible']
+              });
+            }

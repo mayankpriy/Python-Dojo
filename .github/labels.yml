@@ -1,0 +1,79 @@
+- name: solution-submission
+  color: "1d76db"
+  description: "A new solution submission for a question."
+
+- name: bug
+  color: "d73a4a"
+  description: "Something isn't working."
+
+- name: enhancement
+  color: "a2eeef"
+  description: "New feature or request."
+
+- name: documentation
+  color: "0075ca"
+  description: "Improvements or additions to documentation."
+
+- name: help wanted
+  color: "008672"
+  description: "Extra attention is needed."
+
+- name: question
+  color: "d876e3"
+  description: "Further information is requested."
+
+- name: review needed
+  color: "fbca04"
+  description: "Needs review by maintainers."
+
+- name: good first issue
+  color: "7057ff"
+  description: "Good for newcomers."
+
+- name: discussion
+  color: "cfd3d7"
+  description: "Open for discussion."
+
+- name: duplicate
+  color: "cfd3d7"
+  description: "This issue or pull request already exists."
+
+- name: invalid
+  color: "e4e669"
+  description: "This doesn't seem right."
+
+- name: wontfix
+  color: "ffffff"
+  description: "This will not be worked on."
+
+- name: badge-eligible
+  color: "f9d0c4"
+  description: "This PR/issue is eligible for a badge."
+
+- name: weekly-challenge
+  color: "ff6b6b"
+  description: "Weekly challenge submissions and discussions."
+
+- name: solutions
+  color: "0e8a16"
+  description: "Changes to solution files."
+
+- name: workflows
+  color: "5319e7"
+  description: "Changes to GitHub Actions workflows."
+
+- name: config
+  color: "fbca04"
+  description: "Changes to configuration files."
+
+- name: questions
+  color: "d93f0b"
+  description: "Changes to question files."
+
+- name: python
+  color: "3776ab"
+  description: "Changes to Python code files."
+
+- name: templates
+  color: "fef2c0"
+  description: "Changes to template files."

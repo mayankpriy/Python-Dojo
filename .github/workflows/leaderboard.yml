@@ -1,0 +1,85 @@
+name: 🏆 Update Leaderboard
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Every Monday at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+  issues: read
+
+jobs:
+  leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Update leaderboard
+        run: |
+          cat > LEADERBOARD.md << 'EOF'
+          # 🏆 Leaderboard
+
+          > **Top contributors and badge earners in Python Atelier**
+
+          ---
+
+          ## 🥇 Top Contributors
+
+          | Rank | Contributor | Solutions | Badges | Points |
+          |------|-------------|-----------|--------|--------|
+          | 1    | -           | -         | -      | -      |
+          | 2    | -           | -         | -      | -      |
+          | 3    | -           | -         | -      | -      |
+
+          ---
+
+          ## 🏅 Badge Leaders
+
+          ### 🎯 Solution Masters
+          - *Submit your first solution to earn this badge!*
+
+          ### 🧠 Problem Solvers  
+          - *Complete 10 questions to earn this badge!*
+
+          ### 🚀 Code Artists
+          - *Submit 5 high-quality solutions to earn this badge!*
+
+          ### 🤝 Community Helpers
+          - *Help 3 other contributors to earn this badge!*
+
+          ### ⚡ Speed Demons
+          - *Submit 3 solutions in one week to earn this badge!*
+
+          ---
+
+          ## 📊 Statistics
+
+          - **Total Contributors:** 0
+          - **Total Solutions:** 0  
+          - **Total Badges Awarded:** 0
+          - **Active This Week:** 0
+
+          ---
+
+          ## 🎯 How to Get on the Leaderboard
+
+          1. **Submit Solutions:** Create pull requests with your solutions
+          2. **Earn Badges:** Complete challenges and help others
+          3. **Stay Active:** Regular contributions keep you climbing
+          4. **Quality Over Quantity:** Well-documented solutions earn more points
+
+          ---
+
+          *Updated automatically every Monday* 🕐
+          EOF
+
+      - name: Commit and push leaderboard
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add LEADERBOARD.md
+          git commit -m 'chore: update leaderboard [skip ci]' || echo 'No changes to commit'
+          git push

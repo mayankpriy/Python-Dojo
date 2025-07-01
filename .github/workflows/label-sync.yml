@@ -1,0 +1,16 @@
+name: 🏷️ Sync Labels
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # Every day at 2am UTC
+  workflow_dispatch:
+
+jobs:
+  label-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync labels
+        uses: crazy-max/ghaction-github-labeler@v5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          yaml_file: .github/labels.yml

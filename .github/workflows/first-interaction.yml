@@ -1,0 +1,33 @@
+name: 👋 Welcome New Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 **Welcome to Python Atelier!**
+
+            Thank you for your first contribution. Please:
+            - Review the [contribution guidelines](CONTRIBUTING.md)
+            - Add the appropriate labels to your issue
+            - Join our community discussions!
+
+            Happy coding! 🎨
+          pr-message: |
+            👋 **Welcome to Python Atelier!**
+
+            Thank you for your first pull request. Please:
+            - Review the [contribution guidelines](CONTRIBUTING.md)
+            - Add the appropriate labels to your PR
+            - Make sure your solution follows the guidelines
+
+            Happy coding! 🎨

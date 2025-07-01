@@ -420,6 +420,15 @@ Track your contribution impact:
 
 ---
 
+## 🏷️ Labeling Your Pull Requests & Issues
+
+- **Mandatory:** You must select at least one label when creating a PR or issue.
+- **Available labels:** solution-submission, bug, enhancement, documentation, help wanted, question, review needed, good first issue, discussion, duplicate, invalid, wontfix, badge-eligible, and more.
+- **Auto-labeling:** The system will automatically apply the `solution-submission` label to all new PRs. If your PR/issue is eligible for a badge, mention it in your description and the `badge-eligible` label will be added automatically.
+- **Manual selection:** Please review and add any additional relevant labels to help maintainers and reviewers.
+
+---
+
 **Thank you for contributing to Python Dojo! 🐍✨**
 
 Your contributions help make Python learning accessible and collaborative for everyone. Together, we're building the best Python practice resource in the world!
