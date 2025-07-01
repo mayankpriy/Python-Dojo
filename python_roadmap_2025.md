@@ -1,6 +1,6 @@
 # 🐍 Python Roadmap 2025: Core Python Mastery
 
-> **A step-by-step, table-based guide to mastering core Python, from absolute beginner to advanced, with official documentation links and subtopic breakdowns.**
+> **A step-by-step, table-based guide to mastering core Python, from absolute beginner to expert, with official documentation links and subtopic breakdowns.**
 
 ---
 
@@ -59,7 +59,7 @@
 - Dataclasses
 - Pathlib & Modern File Operations
 
-### Phase 4: Expert (Topics 18-21)
+### Phase 4: Expert (Topics 18-22)
 
 **Goal:** Build production-ready applications
 
@@ -98,14 +98,36 @@ graph TD
     C5[17. Pathlib]
 
     D1[18. Async/Await]
-    D2[19. Testing]
-    D3[20. Database]
-    D4[21. Performance]
+    D2[19. Math & Statistics]
+    D3[20. Testing]
+    D4[21. Database]
+    D5[22. Performance]
 
-    A --> A1 --> A2 --> A3 --> A4 --> A5 --> A6
-    B --> B1 --> B2 --> B3 --> B4 --> B5 --> B6
-    C --> C1 --> C2 --> C3 --> C4 --> C5
-    D --> D1 --> D2 --> D3 --> D4
+    A --> A1
+    A1 --> A2
+    A2 --> A3
+    A3 --> A4
+    A4 --> A5
+    A5 --> A6
+
+    B --> B1
+    B1 --> B2
+    B2 --> B3
+    B3 --> B4
+    B4 --> B5
+    B5 --> B6
+
+    C --> C1
+    C1 --> C2
+    C2 --> C3
+    C3 --> C4
+    C4 --> C5
+
+    D --> D1
+    D1 --> D2
+    D2 --> D3
+    D3 --> D4
+    D4 --> D5
 ```
 
 ---
@@ -123,7 +145,7 @@ graph TD
 | **Foundation**   | 1-6    | 2-3 months | **Personal Calculator**  | Basic programming, problem-solving |
 | **Intermediate** | 7-12   | 2-3 months | **File Manager**         | Robust apps, OOP, modular code     |
 | **Advanced**     | 13-17  | 2-3 months | **Data Processing Tool** | Modern Python, efficient code      |
-| **Expert**       | 18-21  | 2-3 months | **Async Web API**        | Production-ready applications      |
+| **Expert**       | 18-22  | 2-3 months | **Async Web API**        | Production-ready applications      |
 
 ### 🏆 Project Checkpoints
 
