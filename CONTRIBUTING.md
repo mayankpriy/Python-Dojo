@@ -40,8 +40,8 @@ Thank you for your interest in contributing to Python Atelier! This guide will h
 
 ```bash
 # Fork on GitHub first, then clone
-git clone https://github.com/YOUR_USERNAME/Python-Dojo.git
-cd Python-Dojo
+git clone https://github.com/Python-Atelier/python-core.git
+cd python-core
 ```
 
 ### **2. Set Up Your Environment**

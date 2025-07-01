@@ -8,8 +8,8 @@
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
-  <a href="https://github.com/python-atelier/python-dojo/stargazers"><img src="https://img.shields.io/github/stars/python-atelier/python-dojo?style=social"></a>
-  <a href="https://github.com/python-atelier/python-dojo/network/members"><img src="https://img.shields.io/github/forks/python-atelier/python-dojo?style=social"></a>
+  <a href="https://github.com/Python-Atelier/python-core/stargazers"><img src="https://img.shields.io/github/stars/Python-Atelier/python-core?style=social"></a>
+  <a href="https://github.com/Python-Atelier/python-core/network/members"><img src="https://img.shields.io/github/forks/Python-Atelier/python-core?style=social"></a>
 </p>
 
 ---
@@ -46,8 +46,8 @@
 
 ```bash
 # 1. Fork & clone the repo
-git clone https://github.com/python-atelier/python-dojo.git
-cd python-dojo
+git clone https://github.com/Python-Atelier/python-core.git
+cd python-core
 
 # 2. Pick a topic and question
 cd 01_variables_and_data_types/questions.md
@@ -84,8 +84,8 @@ Earn badges for:
 
 ## 🌍 Community
 
-- 💬 [Discussions](https://github.com/python-atelier/python-dojo/discussions)
-- 🆘 [Help Needed?](https://github.com/python-atelier/python-dojo/issues/new?template=help-needed.md)
+- 💬 [Discussions](https://github.com/Python-Atelier/python-core/discussions)
+- 🆘 [Help Needed?](https://github.com/Python-Atelier/python-core/issues/new?template=help-needed.md)
 - 🏆 [Weekly Challenges](#)
 - 🏅 [Leaderboard](#)
 
