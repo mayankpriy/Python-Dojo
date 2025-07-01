@@ -1,45 +1,45 @@
 - name: solution-submission
-  color: "1d76db"
+  color: "00ff00"
   description: "A new solution submission for a question."
 
 - name: bug
-  color: "d73a4a"
+  color: "ff0000"
   description: "Something isn't working."
 
 - name: enhancement
-  color: "a2eeef"
+  color: "00bfff"
   description: "New feature or request."
 
 - name: documentation
-  color: "0075ca"
+  color: "4169e1"
   description: "Improvements or additions to documentation."
 
 - name: help wanted
-  color: "008672"
+  color: "14b8a6"
   description: "Extra attention is needed."
 
 - name: question
-  color: "d876e3"
+  color: "8b5cf6"
   description: "Further information is requested."
 
 - name: review needed
-  color: "fbca04"
+  color: "ffd700"
   description: "Needs review by maintainers."
 
 - name: good first issue
-  color: "7057ff"
+  color: "9370db"
   description: "Good for newcomers."
 
 - name: discussion
-  color: "cfd3d7"
+  color: "a9a9a9"
   description: "Open for discussion."
 
 - name: duplicate
-  color: "cfd3d7"
+  color: "808080"
   description: "This issue or pull request already exists."
 
 - name: invalid
-  color: "e4e669"
+  color: "ffff00"
   description: "This doesn't seem right."
 
 - name: wontfix
@@ -47,27 +47,27 @@
   description: "This will not be worked on."
 
 - name: badge-eligible
-  color: "f9d0c4"
+  color: "ff8c00"
   description: "This PR/issue is eligible for a badge."
 
 - name: weekly-challenge
-  color: "ff6b6b"
+  color: "ff1493"
   description: "Weekly challenge submissions and discussions."
 
 - name: solutions
-  color: "0e8a16"
+  color: "32cd32"
   description: "Changes to solution files."
 
 - name: workflows
-  color: "5319e7"
+  color: "9932cc"
   description: "Changes to GitHub Actions workflows."
 
 - name: config
-  color: "fbca04"
+  color: "ffa500"
   description: "Changes to configuration files."
 
 - name: questions
-  color: "d93f0b"
+  color: "ff4500"
   description: "Changes to question files."
 
 - name: python
@@ -75,5 +75,5 @@
   description: "Changes to Python code files."
 
 - name: templates
-  color: "fef2c0"
+  color: "f0e68c"
   description: "Changes to template files."

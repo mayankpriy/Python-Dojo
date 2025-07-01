@@ -27,9 +27,7 @@ jobs:
             });
 
             const labels = new Set();
-
-            // Add default solution-submission label
-            labels.add('solution-submission');
+            let hasSolutions = false;
 
             // Check file paths and add appropriate labels
             for (const file of files) {
@@ -37,6 +35,7 @@ jobs:
               
               if (filename.includes('/solutions/')) {
                 labels.add('solutions');
+                hasSolutions = true;
               }
               if (filename.endsWith('.md') || filename.includes('docs/')) {
                 labels.add('documentation');
@@ -56,6 +55,11 @@ jobs:
               if (filename.includes('template')) {
                 labels.add('templates');
               }
+            }
+
+            // Only add solution-submission label if there are actual solution files
+            if (hasSolutions) {
+              labels.add('solution-submission');
             }
 
             // Apply all labels
