@@ -16,6 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: All Contributors Action
-        uses: all-contributors/all-contributors-action@v6.4.0
+        uses: all-contributors/all-contributors-action@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
