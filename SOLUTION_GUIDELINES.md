@@ -97,8 +97,8 @@ if __name__ == "__main__":
 
    ```bash
    # Fork on GitHub, then clone your fork
-   git clone https://github.com/YOUR_USERNAME/Python-Dojo.git
-   cd Python-Dojo
+   git clone https://github.com/Python-Atelier/python-core.git
+   cd python-core
    ```
 
 2. **Create Your Solution**
