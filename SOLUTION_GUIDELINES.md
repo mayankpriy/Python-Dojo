@@ -2,7 +2,7 @@
 
 > **How to submit your solutions to Python practice questions**
 
-Welcome to the Python Dojo! This guide will help you submit your solutions to practice questions and contribute to this collaborative learning resource.
+Welcome to the Python Atelier! This guide will help you submit your solutions to practice questions and contribute to this collaborative learning atelier.
 
 ---
 

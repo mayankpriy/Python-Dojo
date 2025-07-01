@@ -1,8 +1,8 @@
-# 🤝 Contributing to Python Dojo
+# 🤝 Contributing to Python Atelier
 
-> **Join our collaborative Python learning community!**
+> **Join our collaborative Python learning atelier!**
 
-Thank you for your interest in contributing to Python Dojo! This guide will help you understand how to contribute effectively, whether you're a student, educator, or developer.
+Thank you for your interest in contributing to Python Atelier! This guide will help you understand how to contribute effectively, whether you're a student, educator, or developer.
 
 ---
 

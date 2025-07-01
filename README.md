@@ -1,11 +1,11 @@
-# 🐍 Python Dojo - Master Python Programming with 360+ Practice Questions
+# 🎨 Python Atelier - Master Python Programming with 500+ Practice Questions
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/mayankpriy/Python-Dojo?style=social)](https://github.com/mayankpriy/Python-Dojo)
-[![Forks](https://img.shields.io/github/forks/mayankpriy/Python-Dojo?style=social)](https://github.com/mayankpriy/Python-Dojo)
+[![Stars](https://img.shields.io/github/stars/python-atelier/python-dojo?style=social)](https://github.com/python-atelier/python-dojo)
+[![Forks](https://img.shields.io/github/forks/python-atelier/python-dojo?style=social)](https://github.com/python-atelier/python-dojo)
 
-> **The Ultimate Python Learning Resource** - 17 comprehensive topics, 500+ real-world practice questions, debugging challenges, interview preparation, and a complete 2025 roadmap. Perfect for beginners to advanced developers.
+> **The Ultimate Python Learning Atelier** - 17 comprehensive topics, 500+ real-world practice questions, debugging challenges, interview preparation, and a complete 2025 roadmap. Perfect for beginners to advanced developers.
 
 **Created by:** [Mayank Priy](https://github.com/mayankpriy)  
 **Last Updated:** July 1, 2025  
@@ -13,9 +13,9 @@
 
 ---
 
-## 🎯 What is Python Dojo?
+## 🎯 What is Python Atelier?
 
-Python Dojo is a **comprehensive learning platform** designed to take you from Python basics to advanced concepts through **hands-on practice**. Each topic includes **30 detailed questions** with real-world scenarios, making it perfect for:
+Python Atelier is a **comprehensive learning atelier** designed to take you from Python basics to advanced concepts through **hands-on practice**. Each topic includes **30 detailed questions** with real-world scenarios, making it perfect for:
 
 - 🎓 **Students** learning Python programming
 - 💼 **Job seekers** preparing for technical interviews
@@ -42,7 +42,7 @@ Python Dojo is a **comprehensive learning platform** designed to take you from P
 ## 🏗️ Project Structure
 
 ```
-python-dojo/
+python-atelier/
 ├── 📁 01_variables_and_data_types/     # Variables, types, memory management
 │   └── 📁 solutions/                    # Student solutions
 ├── 📁 02_control_flow/                  # Loops, conditionals, program flow

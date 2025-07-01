@@ -1,4 +1,4 @@
-# 🏅 Python Dojo Badges & Achievements
+# 🏅 Python Atelier Badges & Achievements
 
 > **Earn badges as you learn and contribute!**
 
@@ -6,13 +6,13 @@
 
 ### **🏆 Solution Badges**
 
-| Badge                                                                  | Requirement                | Description             |
-| ---------------------------------------------------------------------- | -------------------------- | ----------------------- |
-| ![First Solution](https://img.shields.io/badge/First_Solution-🏆-gold) | Submit your first solution | Welcome to Python Dojo! |
-| ![10 Solutions](https://img.shields.io/badge/10_Solutions-🥉-bronze)   | Submit 10 solutions        | Building momentum!      |
-| ![25 Solutions](https://img.shields.io/badge/25_Solutions-🥈-silver)   | Submit 25 solutions        | Consistent learner!     |
-| ![50 Solutions](https://img.shields.io/badge/50_Solutions-🥇-gold)     | Submit 50 solutions        | Python master!          |
-| ![100 Solutions](https://img.shields.io/badge/100_Solutions-💎-purple) | Submit 100 solutions       | Legendary coder!        |
+| Badge                                                                  | Requirement                | Description                |
+| ---------------------------------------------------------------------- | -------------------------- | -------------------------- |
+| ![First Solution](https://img.shields.io/badge/First_Solution-🏆-gold) | Submit your first solution | Welcome to Python Atelier! |
+| ![10 Solutions](https://img.shields.io/badge/10_Solutions-🥉-bronze)   | Submit 10 solutions        | Building momentum!         |
+| ![25 Solutions](https://img.shields.io/badge/25_Solutions-🥈-silver)   | Submit 25 solutions        | Consistent learner!        |
+| ![50 Solutions](https://img.shields.io/badge/50_Solutions-🥇-gold)     | Submit 50 solutions        | Python master!             |
+| ![100 Solutions](https://img.shields.io/badge/100_Solutions-💎-purple) | Submit 100 solutions       | Legendary coder!           |
 
 ### **🏅 Quality Badges**
 
@@ -57,7 +57,7 @@
 
 ### **💎 Lifetime Achievements**
 
-- **Python Dojo Master** - Complete all topics
+- **Python Atelier Master** - Complete all topics
 - **Community Legend** - Exceptional contributions
 - **Innovation Award** - Creative problem-solving
 
@@ -127,9 +127,9 @@
 
 - **Total Badges Available:** 20+
 - **Most Popular:** First Solution (100% of contributors)
-- **Rarest:** Python Dojo Master (< 1% of contributors)
+- **Rarest:** Python Atelier Master (< 1% of contributors)
 - **Most Valued:** Best Solution (recognition of excellence)
 
 ---
 
-**Start earning badges today! Every contribution counts towards your Python Dojo achievements.** 🐍✨
+**Start earning badges today! Every contribution counts towards your Python Atelier achievements.** 🎨✨

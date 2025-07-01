@@ -27,7 +27,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: "🎉 Welcome to Python Dojo! 🐍\n\nCheck out our [Solution Guidelines](SOLUTION_GUIDELINES.md) and [Contributing Guide](CONTRIBUTING.md) to get started!\n\nHappy coding! 🚀✨"
+                body: "🎉 Welcome to Python Atelier! 🎨\n\nCheck out our [Solution Guidelines](SOLUTION_GUIDELINES.md) and [Contributing Guide](CONTRIBUTING.md) to get started!\n\nHappy coding! 🚀✨"
               });
             }
 

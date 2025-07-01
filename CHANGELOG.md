@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🎉 Major Update: Modern Python Topics & 2025 Roadmap
 
+## [2.1.0] - 2025-07-01
+
+### 🎨 Organization Migration: Python Atelier
+
+#### ✨ Added
+
+- **Organization Migration** - Moved to python-atelier organization
+- **Branding Update** - Updated all documentation with new atelier theme
+- **Professional Structure** - Enhanced organization for EdTech partnerships
+
 #### ✨ Added
 
 - **5 New Modern Python Topics** (140+ additional questions)
