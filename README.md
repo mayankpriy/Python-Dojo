@@ -1,328 +1,105 @@
-# 🐍 Python Dojo - Master Python Programming with 360+ Practice Questions
+<p align="center">
+  <img src="logo.png" width="180" alt="Python Atelier Logo">
+</p>
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/mayankpriy/Python-Dojo?style=social)](https://github.com/mayankpriy/Python-Dojo)
-[![Forks](https://img.shields.io/github/forks/mayankpriy/Python-Dojo?style=social)](https://github.com/mayankpriy/Python-Dojo)
+<h1 align="center">🎨 Python Atelier</h1>
+<p align="center"><b>Where code becomes art. The ultimate Python learning atelier for everyone.</b></p>
 
-> **The Ultimate Python Learning Resource** - 17 comprehensive topics, 500+ real-world practice questions, debugging challenges, interview preparation, and a complete 2025 roadmap. Perfect for beginners to advanced developers.
-
-**Created by:** [Mayank Priy](https://github.com/mayankpriy)  
-**Last Updated:** July 1, 2025  
-**Topics:** 17 Core Python Concepts | **Questions:** 500+ Practice Problems | **Level:** Beginner to Expert
-
----
-
-## 🎯 What is Python Dojo?
-
-Python Dojo is a **comprehensive learning platform** designed to take you from Python basics to advanced concepts through **hands-on practice**. Each topic includes **30 detailed questions** with real-world scenarios, making it perfect for:
-
-- 🎓 **Students** learning Python programming
-- 💼 **Job seekers** preparing for technical interviews
-- 👨‍💻 **Developers** wanting to strengthen their Python skills
-- 🏫 **Educators** looking for quality practice materials
-- 🤖 **AI/ML enthusiasts** building a strong Python foundation
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg"></a>
+  <a href="https://github.com/python-atelier/python-dojo/stargazers"><img src="https://img.shields.io/github/stars/python-atelier/python-dojo?style=social"></a>
+  <a href="https://github.com/python-atelier/python-dojo/network/members"><img src="https://img.shields.io/github/forks/python-atelier/python-dojo?style=social"></a>
+</p>
 
 ---
 
-## 📊 Project Overview
+## 🚀 Why Python Atelier?
 
-| **Metric**               | **Count**                 |
-| ------------------------ | ------------------------- |
-| **Topics Covered**       | 17 Core Concepts          |
-| **Practice Questions**   | 500+ Real-world Scenarios |
-| **Debugging Challenges** | 15+ Bug-fixing Exercises  |
-| **Interview Questions**  | 50+ Technical Questions   |
-| **Difficulty Levels**    | Beginner to Expert        |
-| **Learning Path**        | Structured Progression    |
-| **2025 Roadmap**         | Complete Learning Path    |
+> **A collaborative, gamified, and community-driven Python learning platform.**  
+> 17 trending topics • 500+ real-world questions • Automated feedback • Badges & achievements • Open to all!
 
 ---
 
-## 🏗️ Project Structure
+## 🧑‍🎨 Atelier Highlights
 
-```
-python-dojo/
-├── 📁 01_variables_and_data_types/     # Variables, types, memory management
-├── 📁 02_control_flow/                  # Loops, conditionals, program flow
-├── 📁 03_functions/                     # Function definition, scope, recursion
-├── 📁 04_data_structures/               # Lists, tuples, dictionaries, sets
-├── 📁 05_string_manipulation/           # String operations, formatting, methods
-├── 📁 06_file_handling/                 # File I/O, context managers
-├── 📁 07_error_handling/                # Exceptions, try-catch, custom errors
-├── 📁 08_object_oriented_programming/   # Classes, inheritance, polymorphism
-├── 📁 09_modules_and_packages/          # Import system, package creation
-├── 📁 10_list_comprehensions/           # List comprehensions, generators
-├── 📁 11_decorators/                    # Function decorators, class decorators
-├── 📁 12_generators/                    # Generator functions, yield
-├── 📁 13_type_hints_and_annotations/    # Type hints, annotations, mypy
-├── 📁 14_async_await_programming/       # Async/await, asyncio, coroutines
-├── 📁 15_dataclasses_and_modern_oop/    # Dataclasses, modern OOP patterns
-├── 📁 16_pathlib_file_operations/       # Pathlib, modern file operations
-├── 📁 17_modern_string_formatting/      # F-strings, modern formatting
-├── 🐛 debugging/                        # Comprehensive debugging challenges
-├── 💼 interview/                        # Interview questions & preparation
-├── 📋 python_roadmap_2025.md           # Complete 2025 learning roadmap
-└── 📁 projects/                         # Real-world project ideas
+- 🎯 **Practice**: 500+ curated questions, real-world scenarios
+- 🏆 **Gamify**: Earn badges, climb the leaderboard, become an Atelier Master
+- 🤝 **Collaborate**: Peer reviews, community help, EdTech integration
+- ⚡ **Modern Python**: Async, type hints, pathlib, dataclasses, and more
+- 🛠️ **Automated**: Instant feedback with GitHub Actions
+- 🌱 **Grow**: Track your progress, join weekly challenges, and level up
+
+---
+
+## 🗺️ Trending Topics
+
+| 🟦                   | **Core**               | 🟨            | **Modern**             | 🟩             | **Advanced**   |
+| -------------------- | ---------------------- | ------------- | ---------------------- | -------------- | -------------- |
+| 🔤 Variables & Types | 📝 String Manipulation | 🏗️ OOP        | 🏷️ Type Hints          | ⚡ Async/Await | 🧪 Testing     |
+| 🔄 Control Flow      | 📦 Modules & Packages  | 🧰 Decorators | 🗂️ Dataclasses         | 🛤️ Pathlib     | 🚀 Performance |
+| 🔧 Functions         | 📊 Data Structures     | 🔁 Generators | 🧩 List Comprehensions | 🐛 Debugging   | 🏆 Projects    |
+
+---
+
+## ✨ Quick Start
+
+```bash
+# 1. Fork & clone the repo
+git clone https://github.com/python-atelier/python-dojo.git
+cd python-dojo
+
+# 2. Pick a topic and question
+cd 01_variables_and_data_types/questions.md
+
+# 3. Submit your solution
+cd solutions/
+python question_01.py
 ```
 
 ---
 
-## 🎯 Learning Objectives
+## 🏅 Badges & Achievements
 
-### **Core Python Mastery**
+Earn badges for:
 
-- **🔤 Variables & Data Types:** Deep understanding of Python's type system
-- **🔄 Control Flow:** Master loops, conditionals, and program flow
-- **🔧 Functions:** Advanced function concepts and patterns
-- **📊 Data Structures:** Efficient use of Python's built-in structures
-- **🏗️ OOP:** Object-oriented programming principles and practices
-- **🚀 Advanced Concepts:** Metaclasses, async/await, performance optimization
+- First solution
+- Best solution of the week
+- Helping others
+- Completing topics
+- And more!
 
-### **Practical Skills**
-
-- **🐛 Debugging:** Systematic approach to finding and fixing bugs
-- **💼 Interview Prep:** Technical questions and communication skills
-- **📝 Code Quality:** Best practices and clean code principles
-- **🧪 Testing:** Writing effective tests and handling edge cases
+[See all badges →](BADGES.md)
 
 ---
 
-## 📚 Topic Breakdown
+## 🤝 How to Contribute
 
-### **🔤 01. Variables & Data Types**
-
-**Focus:** Understanding Python's type system and memory management
-
-- Variable assignment and naming conventions
-- Built-in data types (int, float, str, bool)
-- Type conversion and checking
-- Memory management and garbage collection
-- Immutable vs mutable types
-- Variable scope and lifetime
-
-### **🔄 02. Control Flow**
-
-**Focus:** Program flow control and decision making
-
-- Conditional statements (if, elif, else)
-- Loops (for, while, nested loops)
-- Loop control (break, continue, pass)
-- Exception handling basics
-- Program flow optimization
-
-### **🔧 03. Functions**
-
-**Focus:** Function definition, scope, and advanced patterns
-
-- Function definition and calling
-- Parameters and arguments
-- Return values and multiple returns
-- Variable scope (local, global, nonlocal)
-- Recursion and recursive functions
-- Lambda functions and functional programming
-
-### **📊 04. Data Structures**
-
-**Focus:** Python's built-in data structures and their usage
-
-- Lists: creation, manipulation, slicing
-- Tuples: immutable sequences
-- Dictionaries: key-value pairs and operations
-- Sets: unique collections and set operations
-- Collections module (defaultdict, Counter, etc.)
-- Performance characteristics and use cases
-
-### **📝 05. String Manipulation**
-
-**Focus:** String operations and text processing
-
-- String creation and formatting
-- String methods and operations
-- Regular expressions basics
-- Text processing and manipulation
-- String encoding and decoding
-
-### **📁 06. File Handling**
-
-**Focus:** File I/O operations and data persistence
-
-- File opening and closing
-- Reading and writing files
-- Context managers (with statement)
-- File modes and encoding
-- Working with different file formats
-
-### **⚠️ 07. Error Handling**
-
-**Focus:** Exception handling and error management
-
-- Try-except blocks
-- Exception types and hierarchy
-- Custom exception creation
-- Exception handling best practices
-- Logging and error reporting
-
-### **🏗️ 08. Object-Oriented Programming**
-
-**Focus:** Classes, objects, and OOP principles
-
-- Class definition and instantiation
-- Methods and attributes
-- Inheritance and polymorphism
-- Magic methods and operator overloading
-- Abstract classes and interfaces
-
-### **📦 09. Modules & Packages**
-
-**Focus:** Code organization and modularity
-
-- Module creation and importing
-- Package structure and organization
-- Import system and namespace
-- Virtual environments
-- Third-party package management
-
-### **⚡ 10. List Comprehensions**
-
-**Focus:** Functional programming and concise code
-
-- List comprehension syntax
-- Generator expressions
-- Functional programming concepts
-- Performance optimization
-- Readability and best practices
-
-### **🎨 11. Decorators**
-
-**Focus:** Function and class modification
-
-- Function decorators
-- Class decorators
-- Decorator patterns and use cases
-- Decorator factories
-- Built-in decorators
-
-### **🔄 12. Generators**
-
-**Focus:** Memory-efficient iteration and lazy evaluation
-
-- Generator functions and yield
-- Generator expressions
-- Itertools and advanced patterns
-- Asynchronous generators
-- Real-world use cases
-
-### **📝 13. Type Hints & Annotations**
-
-**Focus:** Modern Python type system and static analysis
-
-- Function and variable annotations
-- Type hints with typing module
-- Optional, Union, and complex types
-- Generic types and type variables
-- Static type checking with mypy
-
-### **⚡ 14. Async/Await Programming**
-
-**Focus:** Asynchronous programming and concurrency
-
-- async/await syntax
-- Coroutines and event loops
-- asyncio library and patterns
-- Concurrent task execution
-- Real-world async applications
-
-### **🏗️ 15. Dataclasses & Modern OOP**
-
-**Focus:** Modern Python object-oriented patterns
-
-- @dataclass decorator
-- Automatic method generation
-- Inheritance and composition
-- Modern OOP best practices
-- Performance optimization
-
-### **📁 16. Pathlib & Modern File Operations**
-
-**Focus:** Modern file system operations
-
-- Path objects and manipulation
-- Cross-platform file operations
-- Directory traversal and globbing
-- Modern file handling patterns
-- Path validation and security
-
-### **💬 17. Modern String Formatting**
-
-**Focus:** F-strings and modern string manipulation
-
-- F-string syntax and features
-- String interpolation
-- Format specifiers and alignment
-- Performance comparisons
-- Best practices and readability
+- 📋 [Solution Guidelines](SOLUTION_GUIDELINES.md)
+- 📝 [Contribution Guide](CONTRIBUTING.md)
+- 🏆 [Badge System](BADGES.md)
+- 🗺️ [2025 Roadmap](python_roadmap_2025.md)
 
 ---
 
-## 🏆 How to Use This Project
+## 🌍 Community
 
-1. **📋 Follow the 2025 Roadmap** - Use `python_roadmap_2025.md` for structured learning
-2. **📚 Choose a Topic** - Start with any of the 17 core topics
-3. **💻 Complete Questions** - Practice with real-world scenarios
-4. **🐛 Debug** - Solve debugging challenges
-5. **💼 Prepare** - Use interview questions for job prep
-6. **📈 Track Progress** - Use checklists and progress bars in each topic
-7. **🚀 Build Projects** - Apply skills to real-world projects in the projects/ folder
+- 💬 [Discussions](https://github.com/python-atelier/python-dojo/discussions)
+- 🆘 [Help Needed?](https://github.com/python-atelier/python-dojo/issues/new?template=help-needed.md)
+- 🏆 [Weekly Challenges](#)
+- 🏅 [Leaderboard](#)
 
 ---
 
-## 📈 Progress Tracking & Study Routine
+## 🎨 About Python Atelier
 
-- Each topic README includes:
-  - Visual progress bars
-  - Skill trees
-  - Learning roadmaps
-  - Study routines
-  - Pitfalls and pro tips
-  - Assessment questions
-  - Success metrics
+Python Atelier is a creative, open-source workshop for mastering Python.  
+Whether you're a student, educator, or lifelong learner—join us and turn your code into art!
 
 ---
 
-## 📝 Contributing
-
-Contributions are welcome! Please see CONTRIBUTING.md for guidelines.
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-## 📞 Contact & Connect
-
-- **👤 Creator:** [Mayank Priy](https://github.com/mayankpriy)
-- **💼 LinkedIn:** [Mayank Priy](https://www.linkedin.com/in/mayankpriyy/)
-
----
-
-<div align="center">
-
-**⭐ Star this repository if you find it helpful!**
-
-**🔄 Fork it to create your own learning path!**
-
-**🤝 Share it with fellow Python learners!**
-
----
-
-_Made with ❤️ for the Python community_
-
-</div>
-
----
-
-Happy Learning! 🚀
+<p align="center">
+  <img src="logo.png" width="100" alt="Python Atelier Logo">
+  <br>
+  <b>Made with ❤️ by Mayank Priy and the Python Atelier community</b>
+</p>

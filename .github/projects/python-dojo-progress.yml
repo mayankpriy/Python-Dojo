@@ -1,0 +1,91 @@
+name: Python Atelier Progress Tracker
+description: Track your learning progress through Python topics
+
+# Project fields
+fields:
+  - name: Status
+    type: SingleSelect
+    options:
+      - name: Not Started
+        color: 1
+      - name: In Progress
+        color: 2
+      - name: Completed
+        color: 3
+      - name: Review Needed
+        color: 4
+
+  - name: Difficulty
+    type: SingleSelect
+    options:
+      - name: ⭐ Beginner
+        color: 1
+      - name: ⭐⭐ Intermediate
+        color: 2
+      - name: ⭐⭐⭐ Advanced
+        color: 3
+
+  - name: Topic
+    type: SingleSelect
+    options:
+      - name: Variables & Data Types
+        color: 1
+      - name: Control Flow
+        color: 2
+      - name: Functions
+        color: 3
+      - name: Data Structures
+        color: 4
+      - name: String Manipulation
+        color: 5
+      - name: File Handling
+        color: 6
+      - name: Error Handling
+        color: 7
+      - name: OOP
+        color: 8
+      - name: Modules & Packages
+        color: 9
+      - name: List Comprehensions
+        color: 10
+      - name: Decorators
+        color: 11
+      - name: Generators
+        color: 12
+      - name: Type Hints
+        color: 13
+      - name: Async/Await
+        color: 14
+      - name: Dataclasses
+        color: 15
+      - name: Pathlib
+        color: 16
+      - name: String Formatting
+        color: 17
+
+  - name: Solutions Submitted
+    type: Number
+    description: Number of solutions submitted for this topic
+
+# Views
+views:
+  - name: All Topics
+    layout: Table
+    groupBy:
+      field: Topic
+    sortBy:
+      field: Status
+      direction: ASC
+
+  - name: My Progress
+    layout: Board
+    groupBy:
+      field: Status
+
+  - name: By Difficulty
+    layout: Table
+    groupBy:
+      field: Difficulty
+    sortBy:
+      field: Topic
+      direction: ASC
