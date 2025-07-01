@@ -5,11 +5,11 @@
 [![Stars](https://img.shields.io/github/stars/mayankpriy/Python-Dojo?style=social)](https://github.com/mayankpriy/Python-Dojo)
 [![Forks](https://img.shields.io/github/forks/mayankpriy/Python-Dojo?style=social)](https://github.com/mayankpriy/Python-Dojo)
 
-> **The Ultimate Python Learning Resource** - 12 comprehensive topics, 360+ real-world practice questions, debugging challenges, and interview preparation. Perfect for beginners to advanced developers.
+> **The Ultimate Python Learning Resource** - 17 comprehensive topics, 500+ real-world practice questions, debugging challenges, interview preparation, and a complete 2025 roadmap. Perfect for beginners to advanced developers.
 
 **Created by:** [Mayank Priy](https://github.com/mayankpriy)  
-**Last Updated:** June 29, 2025  
-**Topics:** 12 Core Python Concepts | **Questions:** 360+ Practice Problems | **Level:** Beginner to Advanced
+**Last Updated:** July 1, 2025  
+**Topics:** 17 Core Python Concepts | **Questions:** 500+ Practice Problems | **Level:** Beginner to Expert
 
 ---
 
@@ -29,12 +29,13 @@ Python Dojo is a **comprehensive learning platform** designed to take you from P
 
 | **Metric**               | **Count**                 |
 | ------------------------ | ------------------------- |
-| **Topics Covered**       | 12 Core Concepts          |
-| **Practice Questions**   | 360+ Real-world Scenarios |
+| **Topics Covered**       | 17 Core Concepts          |
+| **Practice Questions**   | 500+ Real-world Scenarios |
 | **Debugging Challenges** | 15+ Bug-fixing Exercises  |
 | **Interview Questions**  | 50+ Technical Questions   |
 | **Difficulty Levels**    | Beginner to Expert        |
 | **Learning Path**        | Structured Progression    |
+| **2025 Roadmap**         | Complete Learning Path    |
 
 ---
 
@@ -54,8 +55,15 @@ python-dojo/
 ├── 📁 10_list_comprehensions/           # List comprehensions, generators
 ├── 📁 11_decorators/                    # Function decorators, class decorators
 ├── 📁 12_generators/                    # Generator functions, yield
+├── 📁 13_type_hints_and_annotations/    # Type hints, annotations, mypy
+├── 📁 14_async_await_programming/       # Async/await, asyncio, coroutines
+├── 📁 15_dataclasses_and_modern_oop/    # Dataclasses, modern OOP patterns
+├── 📁 16_pathlib_file_operations/       # Pathlib, modern file operations
+├── 📁 17_modern_string_formatting/      # F-strings, modern formatting
 ├── 🐛 debugging/                        # Comprehensive debugging challenges
-└── 💼 interview/                        # Interview questions & preparation
+├── 💼 interview/                        # Interview questions & preparation
+├── 📋 python_roadmap_2025.md           # Complete 2025 learning roadmap
+└── 📁 projects/                         # Real-world project ideas
 ```
 
 ---
@@ -205,15 +213,67 @@ python-dojo/
 - Asynchronous generators
 - Real-world use cases
 
+### **📝 13. Type Hints & Annotations**
+
+**Focus:** Modern Python type system and static analysis
+
+- Function and variable annotations
+- Type hints with typing module
+- Optional, Union, and complex types
+- Generic types and type variables
+- Static type checking with mypy
+
+### **⚡ 14. Async/Await Programming**
+
+**Focus:** Asynchronous programming and concurrency
+
+- async/await syntax
+- Coroutines and event loops
+- asyncio library and patterns
+- Concurrent task execution
+- Real-world async applications
+
+### **🏗️ 15. Dataclasses & Modern OOP**
+
+**Focus:** Modern Python object-oriented patterns
+
+- @dataclass decorator
+- Automatic method generation
+- Inheritance and composition
+- Modern OOP best practices
+- Performance optimization
+
+### **📁 16. Pathlib & Modern File Operations**
+
+**Focus:** Modern file system operations
+
+- Path objects and manipulation
+- Cross-platform file operations
+- Directory traversal and globbing
+- Modern file handling patterns
+- Path validation and security
+
+### **💬 17. Modern String Formatting**
+
+**Focus:** F-strings and modern string manipulation
+
+- F-string syntax and features
+- String interpolation
+- Format specifiers and alignment
+- Performance comparisons
+- Best practices and readability
+
 ---
 
 ## 🏆 How to Use This Project
 
-1. **📚 Choose a Topic** - Start with any of the 12 core topics
-2. **💻 Complete Questions** - Practice with real-world scenarios
-3. **🐛 Debug** - Solve debugging challenges
-4. **💼 Prepare** - Use interview questions for job prep
-5. **📈 Track Progress** - Use checklists and progress bars in each topic
+1. **📋 Follow the 2025 Roadmap** - Use `python_roadmap_2025.md` for structured learning
+2. **📚 Choose a Topic** - Start with any of the 17 core topics
+3. **💻 Complete Questions** - Practice with real-world scenarios
+4. **🐛 Debug** - Solve debugging challenges
+5. **💼 Prepare** - Use interview questions for job prep
+6. **📈 Track Progress** - Use checklists and progress bars in each topic
+7. **🚀 Build Projects** - Apply skills to real-world projects in the projects/ folder
 
 ---
 
