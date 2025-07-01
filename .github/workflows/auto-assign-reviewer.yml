@@ -12,6 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Assign default reviewer
-        uses: peter-evans/assign-reviewers@v3
+        uses: actions/github-script@v7
         with:
-          reviewers: mayankpriy
+          script: |
+            await github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              reviewers: ['mayankpriy']
+            });
